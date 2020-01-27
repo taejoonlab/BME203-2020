@@ -11,9 +11,11 @@ A repository for BME203 Intro to Bioinfo course @ UNIST
 * https://www.theguardian.com/science/2020/jan/26/what-is-the-coronavirus-wuhan-china-virus-sars-symptoms
 * https://www.nytimes.com/2020/01/26/world/china-coronavirus.html
 
-# Useful sites for Git
+# Useful sites for Git and other tools
 * https://guides.github.com/features/mastering-markdown/
+* https://datacarpentry.org/lessons/
+* https://rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf
 
 # Useful sites for Bioinformatics
 * http://rafalab.github.io/pages/harvardx.html
-
+* http://readiab.org/

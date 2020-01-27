@@ -6,6 +6,13 @@ A repository for BME203 Intro to Bioinfo course @ UNIST
 * https://www.who.int/emergencies/diseases/novel-coronavirus-2019
 * https://www.ncbi.nlm.nih.gov/books/NBK7782/
 * https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4369385/
+* https://github.com/blab/sars-like-cov
+* https://nextstrain.org/groups/blab/sars-like-cov
+
+## Novel 2019 coronavirus
+* http://virological.org/t/novel-2019-coronavirus-genome/319
+* https://www.ncbi.nlm.nih.gov/nuccore/MN908947
+* https://www.ebi.ac.uk/ena/browser/view/MN908947
 
 ## News
 * https://www.theguardian.com/science/2020/jan/26/what-is-the-coronavirus-wuhan-china-virus-sars-symptoms

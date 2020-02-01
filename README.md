@@ -14,6 +14,10 @@ A repository for BME203 Intro to Bioinfo course @ UNIST
 * https://www.ncbi.nlm.nih.gov/nuccore/MN908947
 * https://www.ebi.ac.uk/ena/browser/view/MN908947
 
+## Articles
+* https://www.nejm.org/coronavirus
+* https://www.thelancet.com/coronavirus
+
 ## News
 * https://www.theguardian.com/science/2020/jan/26/what-is-the-coronavirus-wuhan-china-virus-sars-symptoms
 * https://www.nytimes.com/2020/01/26/world/china-coronavirus.html

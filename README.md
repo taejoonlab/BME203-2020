@@ -13,6 +13,7 @@ A repository for BME203 Intro to Bioinfo course @ UNIST
 * http://virological.org/t/novel-2019-coronavirus-genome/319
 * https://www.ncbi.nlm.nih.gov/nuccore/MN908947
 * https://www.ebi.ac.uk/ena/browser/view/MN908947
+* https://www.cdc.gov/coronavirus/2019-ncov/downloads/rt-pcr-panel-primer-probes.pdf
 
 ## Articles
 * https://www.nejm.org/coronavirus

@@ -14,6 +14,7 @@ A repository for BME203 Intro to Bioinfo course @ UNIST
 * https://www.ncbi.nlm.nih.gov/nuccore/MN908947
 * https://www.ebi.ac.uk/ena/browser/view/MN908947
 * https://www.cdc.gov/coronavirus/2019-ncov/downloads/rt-pcr-panel-primer-probes.pdf
+* https://www.ebi.ac.uk/ena/data/view/PRJNA601736
 
 ## Articles
 * https://www.nejm.org/coronavirus

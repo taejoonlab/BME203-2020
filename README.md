@@ -9,12 +9,13 @@ A repository for BME203 Intro to Bioinfo course @ UNIST
 * https://github.com/blab/sars-like-cov
 * https://nextstrain.org/groups/blab/sars-like-cov
 
-## Novel 2019 coronavirus
+## Novel 2019 coronavirus (2019-nCoV)
 * http://virological.org/t/novel-2019-coronavirus-genome/319
 * https://www.ncbi.nlm.nih.gov/nuccore/MN908947
 * https://www.ebi.ac.uk/ena/browser/view/MN908947
 * https://www.cdc.gov/coronavirus/2019-ncov/downloads/rt-pcr-panel-primer-probes.pdf
 * https://www.ebi.ac.uk/ena/data/view/PRJNA601736
+* ftp://ftp.uniprot.org/pub/databases/uniprot/pre_release/ (UniProt pre-release for 2019-nCoV proteins)
 
 ## Articles
 * https://www.nejm.org/coronavirus

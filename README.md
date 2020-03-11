@@ -10,6 +10,7 @@ A repository for BME203 Intro to Bioinfo course @ UNIST
 * https://nextstrain.org/groups/blab/sars-like-cov
 
 ## Novel 2019 coronavirus (2019-nCoV)
+* https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=2697049
 * http://virological.org/t/novel-2019-coronavirus-genome/319
 * https://www.ncbi.nlm.nih.gov/nuccore/MN908947
 * https://www.ebi.ac.uk/ena/browser/view/MN908947

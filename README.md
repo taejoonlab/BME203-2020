@@ -11,6 +11,7 @@ A repository for BME203 Intro to Bioinfo course @ UNIST
 # Database for viruses
 * https://www.gisaid.org/
 * https://www.fludb.org/
+* https://fluforecaster.herokuapp.com/
 * https://nextstrain.org/ncov
 * https://nextstrain.org/groups/blab/sars-like-cov
 

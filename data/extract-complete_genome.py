@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import sys
 
-query_term = ''
+query_term = 'SARS'
 
 filename_fa = sys.argv[1]
 

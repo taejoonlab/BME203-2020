@@ -39,3 +39,8 @@ A repository for BME203 Intro to Bioinfo course @ UNIST
 # Useful sites for Bioinformatics
 * http://rafalab.github.io/pages/harvardx.html
 * http://readiab.org/
+
+## Open Research Dataset
+* https://pages.semanticscholar.org/coronavirus-research
+* https://www.microsoft.com/en-us/research/project/academic/articles/microsoft-academic-resources-and-their-application-to-covid-19-research/
+* https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge

@@ -23,6 +23,7 @@ A repository for BME203 Intro to Bioinfo course @ UNIST
 * https://www.cdc.gov/coronavirus/2019-ncov/downloads/rt-pcr-panel-primer-probes.pdf
 * https://www.ebi.ac.uk/ena/data/view/PRJNA601736
 * ftp://ftp.uniprot.org/pub/databases/uniprot/pre_release/ (UniProt pre-release for 2019-nCoV proteins)
+* https://www.ncbi.nlm.nih.gov/genbank/sars-cov-2-seqs/
 
 ## Articles
 * https://www.nejm.org/coronavirus

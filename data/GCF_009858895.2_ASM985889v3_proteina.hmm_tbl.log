@@ -1,0 +1,1517 @@
+# hmmscan :: search sequence(s) against a profile database
+# HMMER 3.1b2 (February 2015); http://hmmer.org/
+# Copyright (C) 2015 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query sequence file:             GCF_009858895.2_ASM985889v3_protein.faa
+# target HMM database:             ./Pfam_SARS-CoV-2_1.0/Pfam-A.SARS-CoV-2.hmm
+# per-dom hits tabular output:     GCF_009858895.2_ASM985889v3_proteina.hmm_tbl
+# model-specific thresholding:     GA cutoffs
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       YP_009724389.1  [L=7096]
+Description: orf1ab polyprotein [Wuhan seafood market pneumonia virus]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------        -----------
+   1.3e-274  902.7  11.9   3.4e-274  901.3  11.9    1.8  1  CoV_Methyltr_1   Coronavirus guanine-N7 methyltransferase
+   8.4e-190  621.4  10.0   2.2e-189  620.1  10.0    1.8  1  CoV_RPol_N       Coronavirus RNA-dependent RNA polymerase, N-
+   6.7e-167  545.3   1.2   1.2e-166  544.5   1.2    1.4  1  CoV_Methyltr_2   Coronavirus 2'-O-methyltransferase
+   4.2e-163  534.9  20.8   4.2e-163  534.9  20.8    3.5  1  CoV_NSP3_C       Coronavirus replicase NSP3, C-terminal
+   2.1e-137  448.5   0.3   4.5e-137  447.4   0.3    1.6  1  Peptidase_C30    Coronavirus endopeptidase C30
+   4.3e-133  434.9   5.8   1.2e-132  433.5   5.8    1.8  1  CoV_peptidase    Coronavirus papain-like peptidase
+   6.6e-122  398.3   9.0   6.6e-122  398.3   9.0    4.5  1  CoV_NSP4_N       Coronavirus replicase NSP4, N-terminal
+    3.6e-97  315.3   6.3    8.3e-97  314.2   6.3    1.7  1  CoV_NSP8         Coronavirus replicase NSP8
+    4.3e-95  310.5   5.2    6.9e-95  309.8   5.2    1.3  1  RdRP_1           Viral RNA-dependent RNA polymerase
+    4.6e-80  257.7   0.3    1.4e-79  256.1   0.3    2.0  1  bCoV_SUD-M       Betacoronavirus single-stranded poly(A) bind
+    1.6e-68  220.9   1.9    2.1e-68  220.5   0.5    2.1  1  CoV_NSP15_C      Coronavirus replicase NSP15, uridylate-speci
+    9.3e-64  207.5  28.6    9.3e-64  207.5  28.6    4.4  1  CoV_NSP6         Coronavirus replicase NSP6
+    5.7e-62  198.7  13.3    6.2e-62  198.5  10.8    2.6  1  CoV_NSP10        Coronavirus RNA synthesis protein NSP10
+    1.3e-55  179.0  14.1    1.7e-53  172.1  14.1    2.6  1  bCoV_NSP3_N      Betacoronavirus replicase NSP3, N-terminal
+    1.7e-51  166.1   5.2    6.8e-51  164.1   5.2    2.2  1  CoV_NSP2_N       Coronavirus replicase NSP2, N-terminal
+    1.6e-50  161.6   0.0    4.6e-50  160.1   0.0    1.9  1  CoV_NSP9         Coronavirus replicase NSP9
+    3.1e-43  138.0   1.2    2.2e-42  135.3   1.2    2.7  1  CoV_NSP4_C       Coronavirus replicase NSP4, C-terminal
+      4e-40  128.6   2.3    9.2e-40  127.4   0.7    2.6  1  bCoV_NAR         Betacoronavirus nucleic acid-binding (NAR)
+    3.8e-39  124.7   6.8    1.7e-38  122.6   6.8    2.3  1  CoV_NSP7         Coronavirus replicase NSP7
+    1.5e-33  105.8   0.2    9.5e-33  103.3   0.1    2.5  1  bCoV_PL2pro      Betacoronavirus polyprotein cleavage domain
+    1.4e-32  103.7   0.0    2.8e-32  102.7   0.0    1.6  1  bCoV_NSP1        Betacoronavirus replicase NSP1
+    4.3e-32  101.6   1.2    2.4e-31   99.2   1.2    2.5  1  CoV_NSP15_N      Coronavirus replicase NSP15, N-terminal olig
+    1.7e-29   94.2   2.7    1.1e-28   91.6   0.1    3.6  1  CoV_NSP2_C       Coronavirus replicase NSP2, C-terminal
+    1.2e-29   93.9   0.0    8.9e-29   91.1   0.0    2.8  1  CoV_NSP15_M      Coronavirus replicase NSP15, middle domain
+    8.4e-20   62.4   0.2    3.2e-19   60.6   0.2    2.1  1  Macro            Macro domain
+    8.4e-09   26.8   0.3    1.1e-07   23.2   0.3    2.6  1  Viral_helicase1  Viral (Superfamily 1) RNA helicase
+
+
+Domain annotation for each model (and alignments):
+>> CoV_Methyltr_1  Coronavirus guanine-N7 methyltransferase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  901.3  11.9  2.2e-274  3.4e-274       2     513 .]    5929    6450 ..    5928    6450 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 901.3 bits;  conditional E-value: 2.2e-274
+  CoV_Methyltr_1    2 ttglfkdcskelsglhpahaltylsldakykveddlavlvgve..dkevtykrlisllGfkldlkvegyhnlfitrdeairkvrawvGldveg 92  
+                      +tglfkdcsk ++glhp++a+t+ls+d+k+k+e+   ++v+++   k++ty+rlis++Gfk++++v+gy n+fitr+eair+vraw+G+dveg
+  YP_009724389.1 5929 VTGLFKDCSKVITGLHPTQAPTHLSVDTKFKTEG---LCVDIPgiPKDMTYRRLISMMGFKMNYQVNGYPNMFITREEAIRHVRAWIGFDVEG 6018
+                      79*******************************9...555555459*********************************************** PP
+
+  CoV_Methyltr_1   93 ahavkdnvGtnlplqlGfstGvdfvvepeGlvvtekgsvvekvkakappGeqfkhlipllrkgkpwkvvrkrivqmladtlaglsdvvvfvlw 185 
+                      +ha++++vGtnlplqlGfstGv++v+ p+G+v+t +++ + +v+ak ppG+qfkhlipl++kg pw+vvr++ivqml+dtl++lsd+vvfvlw
+  YP_009724389.1 6019 CHATREAVGTNLPLQLGFSTGVNLVAVPTGYVDTPNNTDFSRVSAKPPPGDQFKHLIPLMYKGLPWNVVRIKIVQMLSDTLKNLSDRVVFVLW 6111
+                      ********************************************************************************************* PP
+
+  CoV_Methyltr_1  186 ahglelttlryfvkiGkekkcs.cgkratcfsseteayacfkhalgcdyvynpllidiqqwGytGslstnhdevcnvhknahvasadaimtrc 277 
+                      ahg+elt+++yfvkiG e++c+ c++ratcfs+ +++yac++h++g+dyvynp++id+qqwG+tG+l++nhd  c+vh+nahvas+daimtrc
+  YP_009724389.1 6112 AHGFELTSMKYFVKIGPERTCClCDRRATCFSTASDTYACWHHSIGFDYVYNPFMIDVQQWGFTGNLQSNHDLYCQVHGNAHVASCDAIMTRC 6204
+                      ********************999********************************************************************** PP
+
+  CoV_Methyltr_1  278 lavhdlfvksvdwdleypiianeekvnkacrlvqrvvlkaalkalkvkvvhdiGnpkgikcvrradvkfkfydkepivk...kvkkleydyea 367 
+                      lavh++fvk+vdw +eypii +e k+n acr+vq++v+kaal a+k+ v+hdiGnpk+ikcv++adv++kfyd++p+++   k+++l y+y++
+  YP_009724389.1 6205 LAVHECFVKRVDWTIEYPIIGDELKINAACRKVQHMVVKAALLADKFPVLHDIGNPKAIKCVPQADVEWKFYDAQPCSDkayKIEELFYSYAT 6297
+                      *****************************************************************************9977789********* PP
+
+  CoV_Methyltr_1  368 hkd.fldGlclfwncnvdkypenalvcrfdtrvlsklnleGcnGgslyvnkhafhtpafdkaafeklkalpffyyddsdces..kqv....dy 453 
+                      h+d f+dG+clfwncnvd+yp+n++vcrfdtrvls+lnl+Gc+Ggslyvnkhafhtpafdk+af +lk+lpffyy+ds+ces  kqv    dy
+  YP_009724389.1 6298 HSDkFTDGVCLFWNCNVDRYPANSIVCRFDTRVLSNLNLPGCDGGSLYVNKHAFHTPAFDKSAFVNLKQLPFFYYSDSPCEShgKQVvsdiDY 6390
+                      **99*****************************************************************************9988889999** PP
+
+  CoV_Methyltr_1  454 vplkskdcitkcniGgavckkhaeeyreyvesynllvkaGftlwvpkkldvynlwktfte 513 
+                      vplks++cit+cn+Ggavc++ha+eyr y+++yn++++aGf+lwv+k++d+ynlw+tft+
+  YP_009724389.1 6391 VPLKSATCITRCNLGGAVCRHHANEYRLYLDAYNMMISAGFSLWVYKQFDTYNLWNTFTR 6450
+                      **********************************************************96 PP
+
+>> CoV_RPol_N  Coronavirus RNA-dependent RNA polymerase, N-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  620.1  10.0  1.4e-189  2.2e-189       2     350 .]    4407    4758 ..    4406    4758 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 620.1 bits;  conditional E-value: 1.4e-189
+      CoV_RPol_N    2 searleplasGvdtdvvkrafdvynkeaagigkslktncsrfkevdke...ldayfvvkrttksvyekekkiynllkdsevvaehdffkfkke 91  
+                      s+arl+p+++G++tdvv+rafd+yn+++ag++k+lktnc+rf+e+d++   +d+yfvvkr+t s+y++e++iynllkd+ +va+hdffkf+ +
+  YP_009724389.1 4407 SAARLTPCGTGTSTDVVYRAFDIYNDKVAGFAKFLKTNCCRFQEKDEDdnlIDSYFVVKRHTFSNYQHEETIYNLLKDCPAVAKHDFFKFRID 4499
+                      89*******************************************998899****************************************** PP
+
+      CoV_RPol_N   92 rsevpnvsrqdltkytlldlcyalrhfdekdcevlkeilvtlgaieeeyfekkdwydpvenediyrvyaklGeivarallkavkfadalvekG 184 
+                      +++vp++srq+ltkyt++dl+yalrhfde +c++lkeilvt+++++++yf+kkdwyd+ven+di+rvya+lGe+v++allk+v+f+da++++G
+  YP_009724389.1 4500 GDMVPHISRQRLTKYTMADLVYALRHFDEGNCDTLKEILVTYNCCDDDYFNKKDWYDFVENPDILRVYANLGERVRQALLKTVQFCDAMRNAG 4592
+                      ********************************************************************************************* PP
+
+      CoV_RPol_N  185 lvGvltldnqdlnGkfydfGdfvktapGaGvavvdsyysylmpilaltealaselfldsdlakdykkydllkydfteeklelfekyfkywdre 277 
+                      +vGvltldnqdlnG++ydfGdf++t+pG Gv+vvdsyys+lmpil+lt+al +e+++d+dl+k+y+k+dllkydftee+l+lf++yfkywd++
+  YP_009724389.1 4593 IVGVLTLDNQDLNGNWYDFGDFIQTTPGSGVPVVDSYYSLLMPILTLTRALTAESHVDTDLTKPYIKWDLLKYDFTEERLKLFDRYFKYWDQT 4685
+                      ********************************************************************************************* PP
+
+      CoV_RPol_N  278 yhpncvdceddrcilhcanfnvlfstvipktafGplvrkvfvdGvpvvvtvGyhfkelGvvlnqdvklhsskl 350 
+                      yhpncv+c ddrcilhcanfnvlfstv+p t+fGplvrk+fvdGvp+vv++Gyhf+elGvv+nqdv+lhss+l
+  YP_009724389.1 4686 YHPNCVNCLDDRCILHCANFNVLFSTVFPPTSFGPLVRKIFVDGVPFVVSTGYHFRELGVVHNQDVNLHSSRL 4758
+                      **********************************************************************996 PP
+
+>> CoV_Methyltr_2  Coronavirus 2'-O-methyltransferase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  544.5   1.2  7.6e-167  1.2e-166       1     297 [.    6800    7095 ..    6800    7096 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 544.5 bits;  conditional E-value: 7.6e-167
+  CoV_Methyltr_2    1 saewkpGysmpelykvqrmvlekcnlynyGaeiklpsGillnvakytqlcqylntttlavphnmrvlhlGagsdkGvapGsavlrrwlpegal 93  
+                      s++w+pG++mp+lyk+qrm+lekc+l+nyG +++lp+Gi++nvakytqlcqylnt+tlavp+nmrv+h+GagsdkGvapG+avlr+wlp+g+l
+  YP_009724389.1 6800 SQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQLCQYLNTLTLAVPYNMRVIHFGAGSDKGVAPGTAVLRQWLPTGTL 6892
+                      689****************************************************************************************** PP
+
+  CoV_Methyltr_2   94 lvdndvvdyvsdadvsvlgdcatlkledkfdllisdlydkrtkeidkenvskdgfftylsgfikeklalGGsiaikitefswnkelyelvqkf 186 
+                      lvd+d++d+vsdad++++gdcat+++++k+dl+isd+yd++tk+++ken+sk+gffty++gfi++klalGGs+aikite+swn++ly+l+++f
+  YP_009724389.1 6893 LVDSDLNDFVSDADSTLIGDCATVHTANKWDLIISDMYDPKTKNVTKENDSKEGFFTYICGFIQQKLALGGSVAIKITEHSWNADLYKLMGHF 6985
+                      ********************************************************************************************* PP
+
+  CoV_Methyltr_2  187 afwtvfctsvnassseafliGinylgkaekakidGkilhanyifwrnstvlqlsayslldlskfdlklkatavvslkeeqindlvlsllkkGk 279 
+                      a+wt+f+t+vnassseafliG nylgk  +++idG+++hanyifwrn++ +qls+ysl+d+skf+lkl++tav+slke qind++lsll kG+
+  YP_009724389.1 6986 AWWTAFVTNVNASSSEAFLIGCNYLGK-PREQIDGYVMHANYIFWRNTNPIQLSSYSLFDMSKFPLKLRGTAVMSLKEGQINDMILSLLSKGR 7077
+                      ***************************.9**************************************************************** PP
+
+  CoV_Methyltr_2  280 llvrdngkvvvvsdslvn 297 
+                      l++r+n++vv++sd lvn
+  YP_009724389.1 7078 LIIRENNRVVISSDVLVN 7095
+                      *****************8 PP
+
+>> CoV_NSP3_C  Coronavirus replicase NSP3, C-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  534.9  20.8  2.7e-163  4.2e-163       2     464 ..    2261    2748 ..    2260    2749 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 534.9 bits;  conditional E-value: 2.7e-163
+      CoV_NSP3_C    2 llCdgvvkeYsnssf.dksdyCegsllCklClsgydsLsdykhlkvvqqkvkspllldlltllvlavellvalllftkvlvllfllyflqqfv 93  
+                      ++C+g+ ++Y ns+  +   yC+gs+ C++Clsg dsL++y+ l++ q +++s    dl t + l++e+++a++lft ++++l l +++q+f+
+  YP_009724389.1 2261 SYCTGYREGYLNSTNvTIATYCTGSIPCSVCLSGLDSLDTYPSLETIQITISSFK-WDL-TAFGLVAEWFLAYILFTRFFYVLGLAAIMQLFF 2351
+                      58**********9997899**********************************33.555.899****************************** PP
+
+      CoV_NSP3_C   94 nllgvllglqelsw......vvltlvpfssllrivvvvalvikvlkflkHvvyGCkkpsCllCsksarskrvevstvVnGskksfyVnaNgGt 180 
+                      +++ v++  +  sw       +++++p+s ++r+++++a +++v+k + Hvv GC++++C++C+k++r++rve++t+VnG+++sfyV+aNgG+
+  YP_009724389.1 2352 SYFAVHFISN--SWlmwliiNLVQMAPISAMVRMYIFFASFYYVWKSYVHVVDGCNSSTCMMCYKRNRATRVECTTIVNGVRRSFYVYANGGK 2442
+                      *******444..5777899999*********************************************************************** PP
+
+      CoV_NSP3_C  181 kfCkkHnfyCvnCdsygvgnTFIseevaeeLskklkrkvkpTdeayvvvdkVevkdgfvrlysgregqrvyedvtaskfsdveklknlevkkv 273 
+                       fCk Hn++CvnCd+++ g+TFIs+eva++Ls ++kr+++pTd++ ++vd+V+vk+g ++ly++++gq++ye+++ s+f++ ++l+++++k+ 
+  YP_009724389.1 2443 GFCKLHNWNCVNCDTFCAGSTFISDEVARDLSLQFKRPINPTDQSSYIVDSVTVKNGSIHLYFDKAGQKTYERHSLSHFVNLDNLRANNTKGS 2535
+                      ********************************************************************************************* PP
+
+      CoV_NSP3_C  274 pednfivydasngselaqvknaaVyysqllckpillvdkallstlgdsvevakalfdayvdvlsnsfnvdlkklkklvetak........... 355 
+                       + n+iv+d ++++e++++k+a+Vyysql+c+pill+d+al+s++gds eva ++fdayv+++s++fnv ++klk+lv+ta+           
+  YP_009724389.1 2536 LPINVIVFDGKSKCEESSAKSASVYYSQLMCQPILLLDQALVSDVGDSAEVAVKMFDAYVNTFSSTFNVPMEKLKTLVATAEaelaknvsldn 2628
+                      ********************************************************************************************* PP
+
+      CoV_NSP3_C  356 ............aiesdveteefvdavslahkydveltddsfNnlvpsYakpeeklsaedlavliragakvvnanvlkkenvsvvwsakdfkk 436 
+                                   ++sdvet+++v++++l+h+ d+e+t ds+Nn++++Y+k  e+++++dl+++i+++a+++na+v+k++n++++w++kdf++
+  YP_009724389.1 2629 vlstfisaarqgFVDSDVETKDVVECLKLSHQSDIEVTGDSCNNYMLTYNKV-ENMTPRDLGACIDCSARHINAQVAKSHNIALIWNVKDFMS 2720
+                      ***********99***************************************.**************************************** PP
+
+      CoV_NSP3_C  437 LseelrkylvkaakkkGvtlllTfsklr 464 
+                      Lse+lrk++++aakk+++ ++lT++++r
+  YP_009724389.1 2721 LSEQLRKQIRSAAKKNNLPFKLTCATTR 2748
+                      ************************9987 PP
+
+>> Peptidase_C30  Coronavirus endopeptidase C30
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  447.4   0.3  2.9e-137  4.5e-137       1     288 []    3292    3582 ..    3292    3582 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 447.4 bits;  conditional E-value: 2.9e-137
+   Peptidase_C30    1 GlWLddtvyCPrhviakakdsv.edyedllsiarlhdfsvvsgnvqLtvvsaklkgvlLklkvetanaetPkykfvkvkpGesftilaaYdGv 92  
+                      GlWLdd+vyCPrhvi++++d++ ++yedll+++++h+f v++gnvqL+v+++++++++Lklkv+tan++tPkykfv+++pG++f++la+Y+G+
+  YP_009724389.1 3292 GLWLDDVVYCPRHVICTSEDMLnPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGS 3384
+                      9*********************9********************************************************************** PP
+
+   Peptidase_C30   93 vqgvyevtlrsnktikgsflaGaCGsvGynlekdtvefvYmhhlelsngvhtGtdleGefYGgyvDeevaqlestdqlltdnvvafLYaailn 185 
+                      ++gvy++++r+n tikgsfl+G+CGsvG+n+++d+v+f+Ymhh+el++gvh+GtdleG+fYG++vD+++aq+++td+++t+nv+a+LYaa++n
+  YP_009724389.1 3385 PSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVIN 3477
+                      ********************************************************************************************* PP
+
+   Peptidase_C30  186 verWfleseevsledfnawakkngftelkaeda..lskLaaktgvsvekllaaikr.lnsgfgGktilgkssledeftpeevvkqlagvklqs 275 
+                      ++rWfl++++++l+dfn +a+k+++++l+++++  l  L+a+tg++v +++a++k+ l++g++G+tilg++ ledeftp++vv+q++gv++qs
+  YP_009724389.1 3478 GDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVdiLGPLSAQTGIAVLDMCASLKElLQNGMNGRTILGSALLEDEFTPFDVVRQCSGVTFQS 3570
+                      ********************************9999********************89**********************************8 PP
+
+   Peptidase_C30  276 gkvkkivkktslw 288 
+                      + vk+ +k+t++w
+  YP_009724389.1 3571 A-VKRTIKGTHHW 3582
+                      7.*********99 PP
+
+>> CoV_peptidase  Coronavirus papain-like peptidase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  433.5   5.8  7.5e-133  1.2e-132       1     320 []    1564    1882 ..    1564    1882 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 433.5 bits;  conditional E-value: 7.5e-133
+   CoV_peptidase    1 evkvitifvteDgvnlhsvvvktdkslgqqfGvvyakdkdlskvvpaddvedkellkvpsvDtleseafkdileyatlDesalaiYlsal..a 91  
+                      ev++i++f+t+D++nlh++vv++++++gqqfG++y++++d++k++p++ +e+k++ ++p++Dtl+ eaf+   +y+t D s+l++Y+sal  +
+  YP_009724389.1 1564 EVRTIKVFTTVDNINLHTQVVDMSMTYGQQFGPTYLDGADVTKIKPHNSHEGKTFYVLPNDDTLRVEAFE---YYHTTDPSFLGRYMSALnhT 1653
+                      799*******************************************************************...******************** PP
+
+   CoV_peptidase   92 kkwkvqqvdgllvlkwaDnnCwvssvlvaLqaakvkFkaqaLdeAwakllaGDaedFvAlvyavarkkvGdlgDaeetltkLakhldaeaakr 184 
+                      kkwk++qv+gl+++kwaDnnC++ ++l+ Lq+ ++kF+ +aL++A+++++aG+a++F+Al++a+++k+vG+lgD++et++ L +h+++++ kr
+  YP_009724389.1 1654 KKWKYPQVNGLTSIKWADNNCYLATALLTLQQIELKFNPPALQDAYYRARAGEAANFCALILAYCNKTVGELGDVRETMSYLFQHANLDSCKR 1746
+                      ********************************************************************************************* PP
+
+   CoV_peptidase  185 llkksvcveCgakktelagveavivvaavkldnlktgysipcvcGadatdevveaessfvllsaedlPaaeskledgvalva..fsGsvdkGH 275 
+                      +l+ +vc+ Cg+++t+l+gveav+++++++++++k g+ ipc+cG++at+++v++es+fv++sa   P+a++ l++g++++a  ++G++++GH
+  YP_009724389.1 1747 VLN-VVCKTCGQQQTTLKGVEAVMYMGTLSYEQFKKGVQIPCTCGKQATKYLVQQESPFVMMSA---PPAQYELKHGTFTCAseYTGNYQCGH 1835
+                      ***.************************************************************...************************** PP
+
+   CoV_peptidase  276 YtydtAkkaly..dgaklvkfdkkklsvtavftkeafktetvkPvak 320 
+                      Y ++t k++ly  dga l+k +++k+++t+vf+ke ++t+t+kPv++
+  YP_009724389.1 1836 YKHITSKETLYciDGALLTKSSEYKGPITDVFYKENSYTTTIKPVTY 1882
+                      *********************************************85 PP
+
+>> CoV_NSP4_N  Coronavirus replicase NSP4, N-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  398.3   9.0  4.3e-122  6.6e-122       1     352 [.    2788    3141 ..    2788    3142 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 398.3 bits;  conditional E-value: 4.3e-122
+      CoV_NSP4_N    1 llllplsvvtkvavksdevldFkvienGvlrdiestdkCfaNkfksFdewyeakfgsytnsksCPivvgvvdevvgkvvpgvpakvllv.ggt 92  
+                      +l++p++v++k++ +s+e +++k i+ Gv rdi std+CfaNk+++Fd+w+++++gsytn+k+CP++ +v++++vg vvpg+p+++l+  +g+
+  YP_009724389.1 2788 YLITPVHVMSKHTDFSSEIIGYKAIDGGVTRDIASTDTCFANKHADFDTWFSQRGGSYTNDKACPLIAAVITREVGFVVPGLPGTILRTtNGD 2880
+                      68999**********************************************************************************997999 PP
+
+      CoV_NSP4_N   93 ilhflkevfsaegnvcYtrsevvegesflksacvfnsaCtlLeglegerelYCydeglvegaklYsdllphveYkladgnlvklPevileggl 185 
+                      +lhfl +vfsa gn+cYt+s+++e+++f++sacv++++Ct++++++g++++YCyd++++eg+  Y++l p+++Y l+dg+++++P++ leg +
+  YP_009724389.1 2881 FLHFLPRVFSAVGNICYTPSKLIEYTDFATSACVLAAECTIFKDASGKPVPYCYDTNVLEGSVAYESLRPDTRYVLMDGSIIQFPNTYLEGSV 2973
+                      ********************************************************************************************* PP
+
+      CoV_NSP4_N  186 rivrtlattYCrvGeCekskaGvCvslneefvlnnevy.skpgvyCgedlldlvtnvlsvfvssvsvvaltaqlllnlvlaviivlvlylvlk 277 
+                      r+v t +++YCr+G+Ce+s+aGvCvs+++++vlnn++y s pgv+Cg d+++l+tn+++ +++++ +++++a+++++ ++a+++++  y++++
+  YP_009724389.1 2974 RVVTTFDSEYCRHGTCERSEAGVCVSTSGRWVLNNDYYrSLPGVFCGVDAVNLLTNMFTPLIQPIGALDISASIVAGGIVAIVVTCLAYYFMR 3066
+                      ********************************************************************************************* PP
+
+      CoV_NSP4_N  278 fkrlFgdyttlvltvvlaavvnnlsllvtqknlvlavvyavlYlyvtltltsevavimhlsflvayvplvplwll 352 
+                      f+r+Fg+y+++v  ++l++++++ +l++t  +++l  vy+v+Yly+t++lt++v++++h++++v+++plvp+w++
+  YP_009724389.1 3067 FRRAFGEYSHVVAFNTLLFLMSFTVLCLTPVYSFLPGVYSVIYLYLTFYLTNDVSFLAHIQWMVMFTPLVPFWIT 3141
+                      *************************************************************************97 PP
+
+>> CoV_NSP8  Coronavirus replicase NSP8
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  314.2   6.3   5.4e-97   8.3e-97       1     197 []    3943    4139 ..    3943    4139 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 314.2 bits;  conditional E-value: 5.4e-97
+        CoV_NSP8    1 svasefsalpsyvayekakeeyeeakangssqqelkqlkkalniaksefdrdaavqkklekmaeqaltamykearvedrkskvvsalhsllfs 93  
+                      ++asefs+lpsy+a+++a+e+ye+a+ang+s+++lk+lkk+ln+aksefdrdaa+q+klekma+qa+t+myk+ar+ed+++kv+sa++++lf+
+  YP_009724389.1 3943 AIASEFSSLPSYAAFATAQEAYEQAVANGDSEVVLKKLKKSLNVAKSEFDRDAAMQRKLEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFT 4035
+                      69******************************************************************************************* PP
+
+        CoV_NSP8   94 mlrkldsealntildqarnGvvPlsiiPavsaaklvvvvPdkevfkkvveevtvtyagavWeiqevkdadgkevhlkevtaeseanlaWPliv 186 
+                      mlrkld++aln+i+++ar+G+vPl+iiP+++aakl+vv+Pd++++k++++++t+tya+a+Weiq+v+dad+k v+l+e+++++++nlaWPliv
+  YP_009724389.1 4036 MLRKLDNDALNNIINNARDGCVPLNIIPLTTAAKLMVVIPDYNTYKNTCDGTTFTYASALWEIQQVVDADSKIVQLSEISMDNSPNLAWPLIV 4128
+                      ********************************************************************************************* PP
+
+        CoV_NSP8  187 taeraneavkl 197 
+                      ta ran+avkl
+  YP_009724389.1 4129 TALRANSAVKL 4139
+                      *********98 PP
+
+>> RdRP_1  Viral RNA-dependent RNA polymerase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  309.8   5.2   4.5e-95   6.9e-95       3     460 ..    4792    5280 ..    4790    5281 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 309.8 bits;  conditional E-value: 4.5e-95
+          RdRP_1    3 aieelekllsvdpaflknelpryvksh..antdsyvdlikkydrpkaegpvserdkllfraaaklvfselegvpkk.gsstcivkkaidgasq 92  
+                      a +  +++++v+p ++++++++++ s+  ++++s v+l+++++++++++++s++d++ ++ +++ ++++l++v+++ ++++  ++ +++ a q
+  YP_009724389.1 4792 ALTNNVAFQTVKPGNFNKDFYDFAVSKgfFKEGSSVELKHFFFAQDGNAAISDYDYYRYNLPTMCDIRQLLFVVEVvDKYFDCYDGGCINANQ 4884
+                      6677899************************************************************************************** PP
+
+          RdRP_1   93 ieplnrdtsaGypylglggkkkdlyeelqdggearelaealsqdaevlqkftpkklvyatflkdelrplekvaksKtRlvwgepveilllera 185 
+                      +  +n d+saG+p+++ g  k++ly++ ++ ++++ l ++++++  v+++ t+++l+ya++           ak+++R+v+g+++ ++++ r+
+  YP_009724389.1 4885 VIVNNLDKSAGFPFNKWG--KARLYYDSMSYEDQDALFAYTKRN--VIPTITQMNLKYAIS-----------AKNRARTVAGVSICSTMTNRQ 4962
+                      **************8887..9*********************99..99*************...........********************* PP
+
+          RdRP_1  186 faerfikkfaanagfpaiqvGinkfyskwdrllrhltre..eekvyelDyskfDstvppwlirvafellnellgf.pswvklfeallkll..v 273 
+                      f+++ +k++aa++g  + ++G++kfy++w+++l++ +++  ++ ++++Dy+k+D+++p+ l+ +a+ +l++++ + +s   +f++l++++  v
+  YP_009724389.1 4963 FHQKLLKSIAATRGATV-VIGTSKFYGGWHNMLKTVYSDveNPHLMGWDYPKCDRAMPNMLRIMASLVLARKHTTcCSLSHRFYRLANECaqV 5054
+                      ****************9.**********************9**************************************************** PP
+
+          RdRP_1  274 nspialpngtvlkkpgGlpSGspaTsliNSivnl.....................lliqylvkqllkslekdepsvcrfldsylqf....... 338 
+                       s++++++g +++kpgG++SG+++T+ +NS++n+                      ++++l+++l++ l+++  +++ f+++ +         
+  YP_009724389.1 5055 LSEMVMCGGSLYVKPGGTSSGDATTAYANSVFNIcqavtanvnallstdgnkiadKYVRNLQHRLYECLYRNRDVDTDFVNEFYAYlrkhfsm 5147
+                      **********************************************************************************9888999***5 PP
+
+          RdRP_1  339 ityGDDslvavnkdfalv.....lerlfemlkel.gvtptpakksveeydvrrepeevsFLkrtfkke.qsgvrdrldrkrilsllayarskd 424 
+                      ++++DD++v++n+ +a++     +++++ +l+++ +v++++ak+++e + +++++e++s++++ +k++ ++++ +++d++ril + +++++  
+  YP_009724389.1 5148 MILSDDAVVCFNSTYASQglvasIKNFKSVLYYQnNVFMSEAKCWTETDLTKGPHEFCSQHTMLVKQGdDYVYLPYPDPSRILGAGCFVDDIV 5240
+                      55*****************************************************************************************99 PP
+
+          RdRP_1  425 ted....pvrsdqleairlnasahgyeeyrellsryvesl 460 
+                      ++d     +r+++l+++++++  h ++ey +++  y++++
+  YP_009724389.1 5241 KTDgtlmIERFVSLAIDAYPLTKHPNQEYADVFHLYLQYI 5280
+                      9999********************************9996 PP
+
+>> bCoV_SUD-M  Betacoronavirus single-stranded poly(A) binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  256.1   0.3   9.4e-80   1.4e-79       1     143 []    1351    1493 ..    1351    1493 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 256.1 bits;  conditional E-value: 9.4e-80
+      bCoV_SUD-M    1 safyvlpseapnakeeilgtvswnlremlahaeetrklmpicmdvraimatiqrkykgikiqegivdygvrfffytskepvasiitklnslne 93  
+                      safy+lps   n k+eilgtvswnlremlahaeetrklmp+c++ +ai++tiqrkykgikiqeg+vdyg rf+fytsk  vas+i  ln lne
+  YP_009724389.1 1351 SAFYILPSIISNEKQEILGTVSWNLREMLAHAEETRKLMPVCVETKAIVSTIQRKYKGIKIQEGVVDYGARFYFYTSKTTVASLINTLNDLNE 1443
+                      89******************************************************************************************* PP
+
+      bCoV_SUD-M   94 plvtmpigyvthgfnleeaarcmrslkapavvsvsspdavttyngyltss 143 
+                       lvtmp+gyvthg+nleeaar mrslk pa vsvsspdavt+yngyltss
+  YP_009724389.1 1444 TLVTMPLGYVTHGLNLEEAARYMRSLKVPATVSVSSPDAVTAYNGYLTSS 1493
+                      ************************************************98 PP
+
+>> CoV_NSP15_C  Coronavirus replicase NSP15, uridylate-specific endoribonuclease
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  220.5   0.5   1.4e-68   2.1e-68       2     154 .]    6644    6796 ..    6643    6796 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 220.5 bits;  conditional E-value: 1.4e-68
+     CoV_NSP15_C    2 tlftqgRsledfvprsemekdfleldeeeFiekyeledlgleHivyGdvskttiGGlHllislvrkkkenklkveevlksdstvknlvvtdak 94  
+                      t+ftq+R+l++f+prs+me dflel ++eFie+y+le++++eHivyGd+s++++GGlHlli+l+++ ke+ +++e+++++dstvkn+++tda+
+  YP_009724389.1 6644 TYFTQSRNLQEFKPRSQMEIDFLELAMDEFIERYKLEGYAFEHIVYGDFSHSQLGGLHLLIGLAKRFKESPFELEDFIPMDSTVKNYFITDAQ 6736
+                      8******************************************************************************************** PP
+
+     CoV_NSP15_C   95 dassKavctvlDlllddfveilksldlsvvSkvvevviDlkkvrfmlwckdekvkTfYpq 154 
+                      ++ssK vc+v+Dlllddfvei+ks+dlsvvSkvv+v+iD+++++fmlwckd++v+TfYp+
+  YP_009724389.1 6737 TGSSKCVCSVIDLLLDDFVEIIKSQDLSVVSKVVKVTIDYTEISFMLWCKDGHVETFYPK 6796
+                      ***********************************************************6 PP
+
+>> CoV_NSP6  Coronavirus replicase NSP6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  207.5  28.6     6e-64   9.3e-64       2     268 .]    3598    3859 ..    3597    3859 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 207.5 bits;  conditional E-value: 6e-64
+        CoV_NSP6    2 lkytlllvlnpelltlvllvlllvsavltllvKHkvlFlttfllPsvivlvvsnllldyvvesllaevveylsevevsllsvdvqlvvlillv 94  
+                      ++++l+++l ++ ++++ + ++++sa+++++vKHk+ Fl +fllPs+ ++++ n  ++y+++s++++++ +l  v++sl  ++++ +v+ ++ 
+  YP_009724389.1 3598 TQWSLFFFLYENAFLPFAMGIIAMSAFAMMFVKHKHAFLCLFLLPSLATVAYFN--MVYMPASWVMRIMTWLDMVDTSLSGFKLKDCVMYASA 3688
+                      5899**************************************************..66779**********999******************* PP
+
+        CoV_NSP6   95 vlvvvlhtlrfvksklsslitllvslvvvvynyvlvselelesdvlslllmvlslltsewlvaavsyklakyivlllallspalvavlgdvkv 187 
+                      v++++l+t+r+v  + +  +++l+++++ vy +++  +l     ++s+   ++s++++++ v++ ++ la+ iv++ + + p ++ +  ++++
+  YP_009724389.1 3689 VVLLILMTARTVYDDGARRVWTLMNVLTLVYKVYYGNALDQ---AISMWALIISVTSNYSGVVTTVMFLARGIVFMCVEYCPIFFITGNTLQC 3778
+                      ********************************995555555...5999999**********************99877678999999999*** PP
+
+        CoV_NSP6  188 vllvYlllGyvvcvyfGvlyliNrftkltlGvYdfkVSaaelkYmvAnglsaPrnafealvlnlkLlGiGGkrnikistvQ 268 
+                      ++lvY++lGy++++yfG++ l+Nr ++ltlGvYd+ VS++e++Ym+++gl +P+n+++a  ln+kLlG+GGk++ik++tvQ
+  YP_009724389.1 3779 IMLVYCFLGYFCTCYFGLFCLLNRYFRLTLGVYDYLVSTQEFRYMNSQGLLPPKNSIDAFKLNIKLLGVGGKPCIKVATVQ 3859
+                      ********************************************************************************9 PP
+
+>> CoV_NSP10  Coronavirus RNA synthesis protein NSP10
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  198.5  10.8     4e-62   6.2e-62       1     122 []    4262    4384 ..    4262    4384 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 198.5 bits;  conditional E-value: 4e-62
+       CoV_NSP10    1 snsallslcafavdpakayldyvkeGgkpvtncvkmlashaGsGlaitvkpeantdqdsyGGasvclycrahvehpnldGlcklkGkfvqvpt 93  
+                      +ns++ls+cafavd akay+dy+++Gg+p+tncvkml++h+G+G+aitv+pean+dq+s+GGas+clycr+h++hpn +G+c+lkGk+vq+pt
+  YP_009724389.1 4262 ANSTVLSFCAFAVDAAKAYKDYLASGGQPITNCVKMLCTHTGTGQAITVTPEANMDQESFGGASCCLYCRCHIDHPNPKGFCDLKGKYVQIPT 4354
+                      59******************************************************************************************9 PP
+
+       CoV_NSP10   94 g.akdpvsfalenevckvcglwlnygcscd 122 
+                      + a+dpv+f+l+n+vc+vcg+w++ygcscd
+  YP_009724389.1 4355 TcANDPVGFTLKNTVCTVCGMWKGYGCSCD 4384
+                      989**************************7 PP
+
+>> bCoV_NSP3_N  Betacoronavirus replicase NSP3, N-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  172.1  14.1   1.1e-53   1.7e-53       1     148 [.     880    1050 ..     880    1051 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 172.1 bits;  conditional E-value: 1.1e-53
+     bCoV_NSP3_N    1 vktlqpvselltnlgidldewsvatyylfdeageeklssrmycsfyppdeeeeddeeeeeeeieeaceheygteddykglplefgasaetvrv 93  
+                      +ktlqpvsellt+lgidldews+atyylfde+ge+kl+s mycsfyppde+ee+ + +eeee e + ++eygteddy+g plefga++ + + 
+  YP_009724389.1  880 IKTLQPVSELLTPLGIDLDEWSMATYYLFDESGEFKLASHMYCSFYPPDEDEEEGD-CEEEEFEPSTQYEYGTEDDYQGKPLEFGATSAALQP 971 
+                      8*************************************************999776.567889****************************** PP
+
+     bCoV_NSP3_N   94 eeeeeedwlddviet.......s............eiep..epeplp...eepvnqfvgylkltdnvaikcvdivkeaq 148 
+                      eee+eedwldd  ++       s            e++p  e e +p      vn f gylkltdnv ik  div ea+
+  YP_009724389.1  972 EEEQEEDWLDDDSQQtvgqqdgSednqtttiqtivEVQPqlEMELTPvvqTIEVNSFSGYLKLTDNVYIKNADIVEEAK 1050
+                      *********985433111112211111121211112333222233331113469***********************96 PP
+
+>> CoV_NSP2_N  Coronavirus replicase NSP2, N-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.1   5.2   4.4e-51   6.8e-51       2     200 .]     183     423 ..     182     423 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 164.1 bits;  conditional E-value: 4.4e-51
+      CoV_NSP2_N   2 viyVdqymCgadGkpvleeatlalkdyladdeed..........ielkgktyrva.......wkveRkdvpyekQtlftiksikel....gevph 75 
+                     ++yVd+++Cg+dG+p+      ++kd+la+++++          i+ k+++y+++       w +eR++++ye Qt+f+ik +k++    ge+p+
+  YP_009724389.1 183 TRYVDNNFCGPDGYPLE-----CIKDLLARAGKAsctlseqldfIDTKRGVYCCReheheiaWYTERSEKSYELQTPFEIKLAKKFdtfnGECPN 272
+                     69***************.....**********99************************************************************* PP
+
+      CoV_NSP2_N  76 vl..lngkvkkvaprvkkskkvvlseklkslYkavgspfventkpvflsalvkCksCgeeswtvgdwlgfkceccgtet.ksvcvesaGlvkpga 167
+                     ++  ln+ +k+++prv+k+k ++++ +++s+Y +++++++++   + ls+l+kC +Cge+sw++gd+++++ce cgte  ++   +++G+++++a
+  YP_009724389.1 273 FVfpLNSIIKTIQPRVEKKKLDGFMGRIRSVYPVASPNECNQ---MCLSTLMKCDHCGETSWQTGDFVKATCEFCGTENlTKEGATTCGYLPQNA 364
+                     *99*************************************77...*********************************87777779********* PP
+
+      CoV_NSP2_N 168 vl..........................lvtkaevgagtkffgGvvlkyvgkvegvavw 200
+                     v+                          l t  ++g +t  fgG+v++yvg+ ++ a+w
+  YP_009724389.1 365 VVkiycpachnsevgpehslaeyhnesgLKTILRKGGRTIAFGGCVFSYVGCHNKCAYW 423
+                     *********************************************************** PP
+
+>> CoV_NSP9  Coronavirus replicase NSP9
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  160.1   0.0     3e-50   4.6e-50       1     111 []    4141    4253 ..    4141    4253 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 160.1 bits;  conditional E-value: 3e-50
+        CoV_NSP9    1 nnellPgklktkavkagat.daeisseakayynneggksvvyallsskdnlkyakfekedgn.vivveLepPcrfvvdtvkgvkvkYLYfvkn 91  
+                      nnel+P++l++++++ag+t +a+++++a ayyn+++g+++v+alls+ ++lk+a+f+k+dg+ +i++eLepPcrfv+dt+kg+kvkYLYf+k+
+  YP_009724389.1 4141 NNELSPVALRQMSCAAGTTqTACTDDNALAYYNTTKGGRFVLALLSDLQDLKWARFPKSDGTgTIYTELEPPCRFVTDTPKGPKVKYLYFIKG 4233
+                      9******************8889999************************************9****************************** PP
+
+        CoV_NSP9   92 lntlrrGavlGaisatvrLq 111 
+                      ln+l+rG+vlG+++atvrLq
+  YP_009724389.1 4234 LNNLNRGMVLGSLAATVRLQ 4253
+                      *******************9 PP
+
+>> CoV_NSP4_C  Coronavirus replicase NSP4, C-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  135.3   1.2   1.4e-42   2.2e-42       1      95 [.    3166    3261 ..    3166    3262 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 135.3 bits;  conditional E-value: 1.4e-42
+      CoV_NSP4_C    1 lfeGdefvgtfeeaalstfvidkesyvkLkne..isldklkrylslynkykyysGkldeadyreaayahLakaledfsnsgndvlytPPtvsv 91  
+                      +f+G+ f +tfeeaal+tf+++ke+y+kL+++  ++l++++ryl+lynkyky+sG++d+++yreaa++hLakal+dfsnsg+dvly+PP++s+
+  YP_009724389.1 3166 VFNGVSF-STFEEAALCTFLLNKEMYLKLRSDvlLPLTQYNRYLALYNKYKYFSGAMDTTSYREAACCHLAKALNDFSNSGSDVLYQPPQTSI 3257
+                      59*****.************************77799******************************************************** PP
+
+      CoV_NSP4_C   92 tssl 95  
+                      ts++
+  YP_009724389.1 3258 TSAV 3261
+                      **97 PP
+
+>> bCoV_NAR  Betacoronavirus nucleic acid-binding (NAR)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  127.4   0.7     6e-40   9.2e-40       8     117 .]    1922    2019 ..    1909    2019 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 127.4 bits;  conditional E-value: 6e-40
+        bCoV_NAR    8 kasfrtfekvdgvydnfklv..ntkiaedlnaklGfdctkpav.elkvtefpdltGdvvlidddlyvarykkGakllgkpvvwlgheeaalkk 97  
+                      +as          +dnfk+v  n k+a+dln+ +G+  +kpa+ elkvt+fpdl+Gdvv+id+++y+ ++kkGakll+kp+vw  h+++a++k
+  YP_009724389.1 1922 NAS----------FDNFKFVcdNIKFADDLNQLTGY--KKPASrELKVTFFPDLNGDVVAIDYKHYTPSFKKGAKLLHKPIVW--HVNNATNK 2000
+                      444..........5******999*************..*********************************************..******** PP
+
+        bCoV_NAR   98 ltyfnkpsvvc.enkfsvkpv 117 
+                       ty  kp+++c ++++s+kpv
+  YP_009724389.1 2001 ATY--KPNTWCiRCLWSTKPV 2019
+                      ***..***************8 PP
+
+>> CoV_NSP7  Coronavirus replicase NSP7
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  122.6   6.8   1.1e-38   1.7e-38       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 122.6 bits;  conditional E-value: 1.1e-38
+        CoV_NSP7    1 skltdvkCtnvvLlslLqklnvesnsklwaycvelHneilladDleealekllallvvllskdsavdleelvddylenstvLq 83  
+                      sk++dvkCt+vvLls+Lq+l+ves+sklwa+cv+lHn+illa+D++ea+ek+++ll+vlls+++avd+++l++++l+n+++Lq
+  YP_009724389.1 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                      8*********************************************************************************9 PP
+
+>> bCoV_PL2pro  Betacoronavirus polyprotein cleavage domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.3   0.1   6.2e-33   9.5e-33       2      66 .]    1498    1561 ..    1497    1561 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 103.3 bits;  conditional E-value: 6.2e-33
+     bCoV_PL2pro    2 eehfvetvslaGsyrdwsysGqrtelGveflkrGdkivyhtlespvefhldGevlsldklkslls 66  
+                      eehf+et+slaGsy+dwsysGq t+lG+eflkrGdk vy+t   p  fhldGev+++d lk+lls
+  YP_009724389.1 1498 EEHFIETISLAGSYKDWSYSGQSTQLGIEFLKRGDKSVYYTS-NPTTFHLDGEVITFDNLKTLLS 1561
+                      9***************************************95.7*******************98 PP
+
+>> bCoV_NSP1  Betacoronavirus replicase NSP1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  102.7   0.0   1.8e-32   2.8e-32       3     137 ..       9     143 ..       7     144 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 102.7 bits;  conditional E-value: 1.8e-32
+       bCoV_NSP1   3 krkdhvsltlplidagdvvkvtpwdmdveeAletvkeeLkkkgkllfvplelgvlkllpeprVylvesl....tgGtksepfpvreLaydesavr 93 
+                     ++k+hv+l+lp+++++d v v+++ ++vee l +++++Lk+ g++ +v++e+gvl++l++p+V++++s      +G+      + eL+++ ++++
+  YP_009724389.1   9 NEKTHVQLSLPVLQVRD-VLVRGFGDSVEEVLSEARQHLKD-GTCGLVEVEKGVLPQLEQPYVFIKRSDartaPHGHV-----MVELVAELEGIQ 96 
+                     79***************.9*********************9.*************************99665556666.....789********* PP
+
+       bCoV_NSP1  94 tgrsGktvGvllPldselvtgeitilLRk...kGlggnserevpklr 137
+                     +grsG+t+Gvl+P+++e++++++++lLRk   kG+gg+s+ +++k+ 
+  YP_009724389.1  97 YGRSGETLGVLVPHVGEIPVAYRKVLLRKngnKGAGGHSYGADLKSF 143
+                     *****************************888899****99988765 PP
+
+>> CoV_NSP15_N  Coronavirus replicase NSP15, N-terminal oligomerisation
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   99.2   1.2   1.6e-31   2.4e-31       1      61 []    6453    6513 ..    6453    6513 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 99.2 bits;  conditional E-value: 1.6e-31
+     CoV_NSP15_N    1 sLenvayNvvkkghfdgvkGelpvaivndkVfvkedkedvlvFeNkTsLPtnVAfElyakR 61  
+                      sLenva+Nvv+kghfdg++Ge+pv i+n++V++k+d++dv +FeNkT+LP+nVAfEl+akR
+  YP_009724389.1 6453 SLENVAFNVVNKGHFDGQQGEVPVSIINNTVYTKVDGVDVELFENKTTLPVNVAFELWAKR 6513
+                      8***********************************************************9 PP
+
+>> CoV_NSP2_C  Coronavirus replicase NSP2, C-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.6   0.1   6.9e-29   1.1e-28       1     157 []     652     818 ..     652     818 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 91.6 bits;  conditional E-value: 6.9e-29
+      CoV_NSP2_C   1 lksakltvvkggivftvakkfkslvktlldllnkaldllvdtvkiagvkfka...ggtyilfsgnalvkvvsvklkgvkqkg....lkgakeatv 88 
+                     ++++++ +v g+iv  +ak +k+ v+t+ +l+nk+l l+ d++ i+g k+ka   g+t++ +s ++l++ +   +k +++ g    lk+ ke+ +
+  YP_009724389.1 652 ISTCACEIVGGQIVT-CAKEIKESVQTFFKLVNKFLALCADSIIIGGAKLKAlnlGETFVTHS-KGLYRKC---VKSREETGllmpLKAPKEIIF 741
+                     5789***********.***********************************************.*******...88889888999********** PP
+
+      CoV_NSP2_C  89 fvgatvpvkstrvEvvt.....veLe.evdyveppkvkGklvvidgyaFyksgdk..yYpastdgvvvpkvFrlkgg 157
+                     ++g+t p+++ + Evv      ++Le ++ ++++ + +G++v+i+g++ ++ +d+  y+++++++ v++++F+lkgg
+  YP_009724389.1 742 LEGETLPTEVLTEEVVLktgdlQPLEqPTSEAVEAPLVGTPVCINGLMLLEIKDTekYCALAPNMMVTNNTFTLKGG 818
+                     ***************999*9985555256777779*******************999******************98 PP
+
+>> CoV_NSP15_M  Coronavirus replicase NSP15, middle domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   91.1   0.0   5.8e-29   8.9e-29       1      90 [.    6523    6619 ..    6523    6620 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 91.1 bits;  conditional E-value: 5.8e-29
+     CoV_NSP15_M    1 lLrnLgvdvtykfvlWdyeaeaplfsstigvckytDiek.......eklvvlfDdrikgslerFlqlknaVlisttkvkklepviklsaasln 86  
+                      +L+nLgvd+++++v+Wdy+++ap++ stigvc++tDi+k         l+v fD+r+ g+++ F++++n+Vli++ +vk l+p++++++asln
+  YP_009724389.1 6523 ILNNLGVDIAANTVIWDYKRDAPAHISTIGVCSMTDIAKkpteticAPLTVFFDGRVDGQVDLFRNARNGVLITEGSVKGLQPSVGPKQASLN 6615
+                      89************************************9999999999********************************************* PP
+
+     CoV_NSP15_M   87 gvpv 90  
+                      gv++
+  YP_009724389.1 6616 GVTL 6619
+                      *985 PP
+
+>> Macro  Macro domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   60.6   0.2   2.1e-19   3.2e-19       1     117 [.    1058    1164 ..    1058    1165 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 60.6 bits;  conditional E-value: 2.1e-19
+           Macro    1 VnaaNsrllggggvagaihraagkalkeeckelekkqggcllGeavvtpaynlpakyvihtvgplftsskskeeeellakayknalelaeekg 93  
+                      VnaaN +l++gggvaga+++a  +a++ e++++   +g++++G  +v++++nl  k+++h+vgp ++   + e+ +ll++ay+n       ++
+  YP_009724389.1 1058 VNAANVYLKHGGGVAGALNKATNNAMQVESDDYIATNGPLKVGGSCVLSGHNLA-KHCLHVVGPNVN---KGEDIQLLKSAYENF------NQ 1140
+                      9****************************************************9.**********95...8999***********......66 PP
+
+           Macro   94 iksvafPaistGifgvpweeaarv 117 
+                       + +  P +s+Gifg ++  + rv
+  YP_009724389.1 1141 HEVLLAPLLSAGIFGADPIHSLRV 1164
+                      6799***********998766665 PP
+
+>> Viral_helicase1  Viral (Superfamily 1) RNA helicase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   23.2   0.3   7.2e-08   1.1e-07      41     230 ..    5672    5896 ..    5634    5900 .. 0.64
+
+  Alignments for each domain:
+  == domain 1  score: 23.2 bits;  conditional E-value: 7.2e-08
+  Viral_helicase1   41 klpnlsvrtvdsflmalvkstkgkililDEylllhaGyilllaalskaklvilfGDplQipfhsrn..asfllahlpssl........shrv 122 
+                        + +l+ + ++++  +++++t+++i+++DE+ +++   + ++ a+ +ak  + +GDp+Q p   +   +  l + ++ s+            
+   YP_009724389.1 5672 VNSTLEQYVFCTV--NALPETTADIVVFDEISMATNYDLSVVNARLRAKHYVYIGDPAQLPAPRTLltKGTLEPEYFNSVcrlmktigP--- 5758
+                       3334444444444..3444567***********9975555699******************9987522345555555555455433331... PP
+
+  Viral_helicase1  123 grr....ttyllpsdvaeilsak................vgteveversgelkvetepkgq.e.kvlvyltftqalkealgvr......... 183 
+                              t+ ++p+  ++  sa                 +            k  ++++ + +   +++ ++                    
+   YP_009724389.1 5759 --DmflgTCRRCPAEIVDTVSALvydnklkahkdksaqcF------------KMFYKGVIThDvSSAINRPQI---------Gvvrefltrn 5827
+                       ..12333568888888888888744432222222211110............212222222112222333333.........1334444445 PP
+
+  Viral_helicase1  184 .........................evttvhevqGltfdkVtlvllketdlelisesrenllvAlTRhrksl 230 
+                                                 + tv + qG+++d V++  ++et  ++   + + + vA+TR++ ++
+   YP_009724389.1 5828 pawrkavfispynsqnavaskilglPTQTVDSSQGSEYDYVIFTQTTETAHSC---NVNRFNVAITRAKVGI 5896
+                       777777888899999999999999988*******************9998663...467999******9876 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (7096 residues searched)
+Target model(s):                          40  (8009 nodes)
+Passed MSV filter:                        27  (0.675); expected 0.8 (0.02)
+Passed bias filter:                       26  (0.65); expected 0.8 (0.02)
+Passed Vit filter:                        26  (0.65); expected 0.0 (0.001)
+Passed Fwd filter:                        26  (0.65); expected 0.0 (1e-05)
+Initial search space (Z):                 40  [actual number of targets]
+Domain search space  (domZ):              26  [number of targets reported over threshold]
+# CPU time: 0.16u 0.00s 00:00:00.16 Elapsed: 00:00:00.16
+# Mc/sec: 355.20
+//
+Query:       YP_009724390.1  [L=1273]
+Description: surface glycoprotein [Wuhan seafood market pneumonia virus]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model       Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------    -----------
+   1.6e-202  665.2   2.6   2.3e-202  664.7   2.6    1.1  1  CoV_S2       Coronavirus spike glycoprotein S2
+    1.1e-73  239.6   5.1    1.1e-73  239.6   5.1    2.0  1  bCoV_S1_N    Betacoronavirus-like spike glycoprotein S1, N-te
+    2.4e-43  140.1   1.8    5.6e-43  138.8   1.8    1.7  1  bCoV_S1_RBD  Betacoronavirus spike glycoprotein S1, receptor 
+    3.1e-16   50.8   0.0    1.9e-15   48.2   0.0    2.6  1  CoV_S1_C     Coronavirus spike glycoprotein S1, C-terminal
+
+
+Domain annotation for each model (and alignments):
+>> CoV_S2  Coronavirus spike glycoprotein S2
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  664.7   2.6  2.3e-203  2.3e-202       2     519 .]     711    1232 ..     710    1233 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 664.7 bits;  conditional E-value: 2.3e-203
+          CoV_S2    2 evsiptnftlsvqteyiqtsspkvsvdCaqyvCngnercrqlLqqYgsfCskiesaLqesaeledaevlsllseleealklaniskfdssfnf 94  
+                       + iptnft+sv+te++++s++k+svdC++y+C+++++c++lL qYgsfC+++++aL+++a  +d++++++++++++ +k++ i++f++ fnf
+  YP_009724390.1  711 SIAIPTNFTISVTTEILPVSMTKTSVDCTMYICGDSTECSNLLLQYGSFCTQLNRALTGIAVEQDKNTQEVFAQVKQIYKTPPIKDFGG-FNF 802 
+                      689*************************************************************************************8.9** PP
+
+          CoV_S2   95 ssllpkkns..krsaiedllfdkvvtsglgtvdaykkctkgteiaDlvcaqyynGimVLPgvvdaeklalytaslvggmalgglt....aaaa 181 
+                      s++lp++++  krs+iedllf+kv++++ g++++y +c+++ +++Dl+caq++nG++VLP+++++e++a+yt++l++g+ + g+t    aa +
+  YP_009724390.1  803 SQILPDPSKpsKRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLPPLLTDEMIAQYTSALLAGTITSGWTfgagAALQ 895 
+                      ******77778*****************************************************************************99*** PP
+
+          CoV_S2  182 ipfalavqaRlnylglqtnvLsenqkilansfnkaikniqegfktvasAlkkiqdvVnanaealnkLtkqLsnnfgaisssiqdiysrLdele 274 
+                      ipfa+++++R+n++g+++nvL enqk++an+fn+ai++iq++++++asAl k+qdvVn+na+aln+L+kqLs+nfgaiss ++di+srLd++e
+  YP_009724390.1  896 IPFAMQMAYRFNGIGVTQNVLYENQKLIANQFNSAIGKIQDSLSSTASALGKLQDVVNQNAQALNTLVKQLSSNFGAISSVLNDILSRLDKVE 988 
+                      ********************************************************************************************* PP
+
+          CoV_S2  275 adaqvDrlitgrlaaLnafvtqlltkasevkasrqlakqkvneCvksqssrlgFCGnGthllslvqaapngilflhtvlvptkyetvkaasgl 367 
+                      a++q+Drlitgrl++L+++vtq+l++a+e++as++la++k++eCv  qs+r++FCG+G+hl+s++q+ap+g++flh+++vp + +++++a+++
+  YP_009724390.1  989 AEVQIDRLITGRLQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLMSFPQSAPHGVVFLHVTYVPAQEKNFTTAPAI 1081
+                      ********************************************************************************************* PP
+
+          CoV_S2  368 Cvngklglapkdgifvlnntswliternmyeprkitssdfvqisscdvnyvniektklpslipdledfneeleeilknlnstlpkle.iekfn 459 
+                      C++gk + +p++g+fv+n t+w++t+rn+yep+ it++++++ ++cdv +  +++t +++l+p+l++f+eel++++kn++s   +l  i+ +n
+  YP_009724390.1 1082 CHDGK-AHFPREGVFVSNGTHWFVTQRNFYEPQIITTDNTFVSGNCDVVIGIVNNTVYDPLQPELDSFKEELDKYFKNHTSPDVDLGdISGIN 1173
+                      *****.*************************************************************************888888889***** PP
+
+          CoV_S2  460 atllnlseeikqleeLqeviknlnetlidleelnkvetyikWpwyvwl..iialavvivlvl 519 
+                      a+++n+++ei   ++L+ev+knlne+lidl+el+k+e+yikWpwy+wl  i++l++++++++
+  YP_009724390.1 1174 ASVVNIQKEI---DRLNEVAKNLNESLIDLQELGKYEQYIKWPWYIWLgfIAGLIAIVMVTI 1232
+                      **********...***********************************99999999999875 PP
+
+>> bCoV_S1_N  Betacoronavirus-like spike glycoprotein S1, N-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  239.6   5.1   1.1e-74   1.1e-73       5     297 .]      33     337 ..      29     337 .. 0.92
+
+  Alignments for each domain:
+  == domain 1  score: 239.6 bits;  conditional E-value: 1.1e-74
+       bCoV_S1_N   5 adgvyYlpdrvy.snitlllqglFpkqgsnvtqy.vlspahnkkkklfntpflsdFgdGifvkiknaknstgsvviseypavvfGstfentsytl 97 
+                      +gvyY pd+v+ s++ + +q+lF+++ snvt++ ++  + ++++k f++p+l+ F+dG++++ ++++n +++        ++fG+t+++++++l
+  YP_009724390.1  33 TRGVYY-PDKVFrSSVLHSTQDLFLPFFSNVTWFhAIHVSGTNGTKRFDNPVLP-FNDGVYFASTEKSNIIRG--------WIFGTTLDSKTQSL 117
+                     589999.***************************6666666*************.***************999........************** PP
+
+       bCoV_S1_N  98 viapdscgtvltilvCnytlcetpvt..fcrsnlgnynannslvvfsaesClfnrtf.titvdes........rvefgfkqqdgglhlYssrklp 181
+                     +i+++   t+++i+vC++++c+ p++  ++++n+ +  + ++ v++sa++C+f++    + +d +        ++ef+fk+ dg++++Ys ++++
+  YP_009724390.1 118 LIVNNA--TNVVIKVCEFQFCNDPFLgvYYHKNNKSWMESEFRVYSSANNCTFEYVSqPFLMDLEgkqgnfknLREFVFKNIDGYFKIYSKHTPI 210
+                     ******..****************7521445555555556666666***********99****99**************************9998 PP
+
+       bCoV_S1_N 182 ......dsgvptlfplaslplgsnityytvipsvirst......dqnerkaqaalyvaklkkrtyLlsfdenGyitnavDCsqddlseLkCstks 264
+                           ++g++ l pl+ lp+g+nit+++ + +  rs       ++ +++ +aa+yv++l++rt+Ll+++enG+it+avDC+ d+lse kC+ ks
+  YP_009724390.1 211 nlvrdlPQGFSALEPLVDLPIGINITRFQTLLALHRSYltpgdsSSGWTAGAAAYYVGYLQPRTFLLKYNENGTITDAVDCALDPLSETKCTLKS 305
+                     *********************************99966667764599************************************************ PP
+
+       bCoV_S1_N 265 fevetGVYslssyraqpvgevyirqanltcecp 297
+                     f+ve+G+Y++s++r+qp+++ + r++n+t+ cp
+  YP_009724390.1 306 FTVEKGIYQTSNFRVQPTESIV-RFPNITNLCP 337
+                     ********************88.*******998 PP
+
+>> bCoV_S1_RBD  Betacoronavirus spike glycoprotein S1, receptor binding
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  138.8   1.8   5.6e-44   5.6e-43       2     185 .]     349     526 ..     348     526 .. 0.85
+
+  Alignments for each domain:
+  == domain 1  score: 138.8 bits;  conditional E-value: 5.6e-44
+     bCoV_S1_RBD   2 splnweRkvfsnCnfnlskllslvqvsslkCygvspskladmCyssvtvDkfaipesrksdlqlgsagaiskyNYkldtsftgCvlaysvpannv 96 
+                     s+++w+Rk +snC++++s+l++++++s++kCygvsp+kl+d+C+++v++D f i+ ++++++++g++g+i++yNYkl+++ftgCv+a+       
+  YP_009724390.1 349 SVYAWNRKRISNCVADYSVLYNSASFSTFKCYGVSPTKLNDLCFTNVYADSFVIRGDEVRQIAPGQTGKIADYNYKLPDDFTGCVIAW------- 436
+                     89**************************************************************************************....... PP
+
+     bCoV_S1_RBD  97 titkvntsslnrryafaekyaykslsskdv.......qlfikpgqyqpcksyvasvlesa.nksktlsslegpktvevqmvvvislkyakgsatv 183
+                          n ++l+++ + + +y y+ + +++          +i + + +pc+  v+ ++     +s  ++ ++g +  + ++vvv+s+++ +++atv
+  YP_009724390.1 437 -----NSNNLDSKVGGNYNYLYRLFRKSNLkpferdiSTEIYQAGSTPCNG-VEGFNCYFpLQSYGFQPTNG-VGYQPYRVVVLSFELLHAPATV 524
+                     .....88999**9********998666655556555566666666777777.66644444444444555555.456699**************** PP
+
+     bCoV_S1_RBD 184 CP 185
+                     C+
+  YP_009724390.1 525 CG 526
+                     *7 PP
+
+>> CoV_S1_C  Coronavirus spike glycoprotein S1, C-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.2   0.0   1.9e-16   1.9e-15       1      56 [.     536     592 ..     536     594 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 48.2 bits;  conditional E-value: 1.9e-16
+        CoV_S1_C   1 nvCvdYtiyGvtGtGViresnltipsg.lyytsssGnllgfknvttgevYsvtPCvs 56 
+                     n+Cv+++++G+tGtGV++esn+++  +  + ++ ++   ++++ +t e+ ++tPC++
+  YP_009724390.1 536 NKCVNFNFNGLTGTGVLTESNKKFLPFqQFGRDIADTTDAVRDPQTLEILDITPCSF 592
+                     89*************************9***************************97 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (1273 residues searched)
+Target model(s):                          40  (8009 nodes)
+Passed MSV filter:                         8  (0.2); expected 0.8 (0.02)
+Passed bias filter:                        5  (0.125); expected 0.8 (0.02)
+Passed Vit filter:                         4  (0.1); expected 0.0 (0.001)
+Passed Fwd filter:                         4  (0.1); expected 0.0 (1e-05)
+Initial search space (Z):                 40  [actual number of targets]
+Domain search space  (domZ):               4  [number of targets reported over threshold]
+# CPU time: 0.02u 0.00s 00:00:00.02 Elapsed: 00:00:00.01
+# Mc/sec: 1019.55
+//
+Query:       YP_009724391.1  [L=275]
+Description: ORF3a protein [Wuhan seafood market pneumonia virus]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model          Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------       -----------
+   2.1e-150  491.0   6.5   2.3e-150  490.8   6.5    1.0  1  bCoV_viroporin  Betacoronavirus viroporin
+
+
+Domain annotation for each model (and alignments):
+>> bCoV_viroporin  Betacoronavirus viroporin
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  490.8   6.5  5.8e-152  2.3e-150       1     273 []       1     274 [.       1     274 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 490.8 bits;  conditional E-value: 5.8e-152
+  bCoV_viroporin   1 mdlfmsiftlgsitrqpakienaspastvhatatiplqaslpfgwlvvgvallavfqsaskvialhkrwqlalykgiqlvcnllllfvtiyshll 95 
+                     mdlfm+ift+g++t + + i++a+p+  v atatip+qaslpfgwl+vgvallavfqsask+i+l+krwqlal kg+++vcnllllfvt+yshll
+  YP_009724391.1   1 MDLFMRIFTIGTVTLKQGEIKDATPSDFVRATATIPIQASLPFGWLIVGVALLAVFQSASKIITLKKRWQLALSKGVHFVCNLLLLFVTVYSHLL 95 
+                     9********************************************************************************************** PP
+
+  bCoV_viroporin  96 llaagleaqflyiyaliyilqivsfcrfimrcwlcwkcksknpllydanyfvcwhtnnydycipynsvtdtivvtsgdgistpklkedyqiggys 190
+                     l+aaglea fly+yal+y+lq ++f+r+imr wlcwkc+sknpllydanyf+cwhtn+ydycipynsvt +iv+tsgdg+++p    dyqiggy+
+  YP_009724391.1  96 LVAAGLEAPFLYLYALVYFLQSINFVRIIMRLWLCWKCRSKNPLLYDANYFLCWHTNCYDYCIPYNSVTSSIVITSGDGTTSPISEHDYQIGGYT 190
+                     *********************************************************************************************** PP
+
+  bCoV_viroporin 191 edwhsgvkdyvvvhgyftevyyqlestqlttdtgienatffifnklvkdv.dnvqihtidgssgvvnpamdpiydepttttsvp 273
+                     e w sgvkd vv+h yft  yyql stql+tdtg+e  tffi+nk+v ++ ++vqihtidgssgvvnp m+piydepttttsvp
+  YP_009724391.1 191 EKWESGVKDCVVLHSYFTSDYYQLYSTQLSTDTGVEHVTFFIYNKIVDEPeEHVQIHTIDGSSGVVNPVMEPIYDEPTTTTSVP 274
+                     ************************************************98358******************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (275 residues searched)
+Target model(s):                          40  (8009 nodes)
+Passed MSV filter:                         5  (0.125); expected 0.8 (0.02)
+Passed bias filter:                        2  (0.05); expected 0.8 (0.02)
+Passed Vit filter:                         1  (0.025); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (0.025); expected 0.0 (1e-05)
+Initial search space (Z):                 40  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+Query:       YP_009724392.1  [L=75]
+Description: envelope protein [Wuhan seafood market pneumonia virus]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    1.7e-23   74.1   5.8    1.8e-23   74.0   5.8    1.0  1  CoV_E     Coronavirus small envelope protein E
+
+
+Domain annotation for each model (and alignments):
+>> CoV_E  Coronavirus small envelope protein E
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   74.0   5.8   4.6e-25   1.8e-23       2      66 ..       3      68 ..       2      75 .] 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 74.0 bits;  conditional E-value: 4.6e-25
+           CoV_E  2 lfvvedtg.lvvniillllvlivvllvsiailklikLcvqccrlcntlvvsPviyvYnvYkkymsi 66
+                    +fv+e+tg l+vn++ll+l+++v+llv++ail++++Lc++cc+++n  +v+P+ yvY+  k+ +s 
+  YP_009724392.1  3 SFVSEETGtLIVNSVLLFLAFVVFLLVTLAILTALRLCAYCCNIVNVSLVKPSFYVYSRVKNLNSS 68
+                    79***********************************************************99864 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (75 residues searched)
+Target model(s):                          40  (8009 nodes)
+Passed MSV filter:                         8  (0.2); expected 0.8 (0.02)
+Passed bias filter:                        4  (0.1); expected 0.8 (0.02)
+Passed Vit filter:                         1  (0.025); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (0.025); expected 0.0 (1e-05)
+Initial search space (Z):                 40  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.01s 00:00:00.01 Elapsed: 00:00:00.01
+# Mc/sec: 60.07
+//
+Query:       YP_009724393.1  [L=222]
+Description: membrane glycoprotein [Wuhan seafood market pneumonia virus]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+      7e-74  239.0   1.7      8e-74  238.8   1.7    1.0  1  CoV_M     Coronavirus M matrix/glycoprotein
+
+
+Domain annotation for each model (and alignments):
+>> CoV_M  Coronavirus M matrix/glycoprotein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  238.8   1.7     2e-75     8e-74       2     206 ..      16     216 ..      15     218 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 238.8 bits;  conditional E-value: 2e-75
+           CoV_M   2 elkewnlalsiilillivvLQyGyakrsrflYvlKlilLWllwPltlalsifaavaeykknsvvfvfaiifavltlvlwlkYfvdSirLylrtks 96 
+                      l++wnl++ ++++ +i++LQ++ya+r+rflY++Kli+LWllwP+tla++++aav  y+ n+ + ++ai++a+l+ ++wl+Yf++S+rL+ rt+s
+  YP_009724393.1  16 LLEQWNLVIGFLFLTWICLLQFAYANRNRFLYIIKLIFLWLLWPVTLACFVLAAV--YRINWITGGIAIAMACLVGLMWLSYFIASFRLFARTRS 108
+                     589****************************************************..************************************** PP
+
+           CoV_M  97 aWsfsPetnliavikvagktvtlpldevptvltlvllsgklkleGqklakgvsvkelPkevtVakpsktivYlkktvssnedsdtgvliYvkdka 191
+                     +Wsf+Petn+++++ + g+++t+pl e++ v+ +v+l+g+l ++G++l++ +++k+lPke+tVa+++++ +Y k + s++   d+g++ Y ++++
+  YP_009724393.1 109 MWSFNPETNILLNVPLHGTILTRPLLESELVIGAVILRGHLRIAGHHLGR-CDIKDLPKEITVATSRTLSYY-KLGASQRVAGDSGFAAYSRYRI 201
+                     **************************************************.*****************9999.********************** PP
+
+           CoV_M 192 gnaslestkteksee 206
+                     gn++l++ ++++s++
+  YP_009724393.1 202 GNYKLNTDHSSSSDN 216
+                     *******99888765 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (222 residues searched)
+Target model(s):                          40  (8009 nodes)
+Passed MSV filter:                         4  (0.1); expected 0.8 (0.02)
+Passed bias filter:                        2  (0.05); expected 0.8 (0.02)
+Passed Vit filter:                         1  (0.025); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (0.025); expected 0.0 (1e-05)
+Initial search space (Z):                 40  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+Query:       YP_009724394.1  [L=61]
+Description: ORF6 protein [Wuhan seafood market pneumonia virus]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    5.5e-34  107.4   2.3      6e-34  107.3   2.3    1.0  1  bCoV_NS6  Betacoronavirus NS6 protein
+
+
+Domain annotation for each model (and alignments):
+>> bCoV_NS6  Betacoronavirus NS6 protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  107.3   2.3   1.5e-35     6e-34       1      61 [.       1      61 []       1      61 [] 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 107.3 bits;  conditional E-value: 1.5e-35
+        bCoV_NS6  1 mfhlvdfqvtiaeiliiimrtfriailnldvlissivrqlfkPltkkkyselddeePmeld 61
+                    mfhlvdfqvtiaeil+iimrtf+++i+nld +i  i++ l k lt  kys+ld+e+Pme+d
+  YP_009724394.1  1 MFHLVDFQVTIAEILLIIMRTFKVSIWNLDYIINLIIKNLSKSLTENKYSQLDEEQPMEID 61
+                    9***********************************************************9 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (61 residues searched)
+Target model(s):                          40  (8009 nodes)
+Passed MSV filter:                         2  (0.05); expected 0.8 (0.02)
+Passed bias filter:                        2  (0.05); expected 0.8 (0.02)
+Passed Vit filter:                         1  (0.025); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (0.025); expected 0.0 (1e-05)
+Initial search space (Z):                 40  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+Query:       YP_009724395.1  [L=121]
+Description: ORF7a protein [Wuhan seafood market pneumonia virus]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------  -----------
+    3.8e-67  214.8   0.7    4.5e-67  214.6   0.7    1.1  1  bCoV_NS7A  Betacoronavirus NS7A protein
+
+
+Domain annotation for each model (and alignments):
+>> bCoV_NS7A  Betacoronavirus NS7A protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  214.6   0.7   1.1e-68   4.5e-67       1     107 []      16     121 .]      16     121 .] 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 214.6 bits;  conditional E-value: 1.1e-68
+       bCoV_NS7A   1 elyhyqecvrgttvllkepcpsgtyegnspfhpladnkfaltcssthfafacadgtrhtyqlrarsvspklfirqeevyqelysplflivaalvf 95 
+                     elyhyqecvrgttvllkepc sgtyegnspfhpladnkfaltc st+fafac dg +h yqlrarsvspklfirqeev qelysp+flivaa+vf
+  YP_009724395.1  16 ELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLADNKFALTCFSTQFAFACPDGVKHVYQLRARSVSPKLFIRQEEV-QELYSPIFLIVAAIVF 109
+                     8****************************************************************************9.79************** PP
+
+       bCoV_NS7A  96 iilcftikrkie 107
+                     i lcft+krk+e
+  YP_009724395.1 110 ITLCFTLKRKTE 121
+                     **********98 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (121 residues searched)
+Target model(s):                          40  (8009 nodes)
+Passed MSV filter:                         4  (0.1); expected 0.8 (0.02)
+Passed bias filter:                        3  (0.075); expected 0.8 (0.02)
+Passed Vit filter:                         2  (0.05); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (0.025); expected 0.0 (1e-05)
+Initial search space (Z):                 40  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+Query:       YP_009724396.1  [L=121]
+Description: ORF8 protein [Wuhan seafood market pneumonia virus]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+    7.5e-47  150.2   1.3    8.4e-47  150.0   1.3    1.0  1  bCoV_NS8  Betacoronavirus NS8 protein
+
+
+Domain annotation for each model (and alignments):
+>> bCoV_NS8  Betacoronavirus NS8 protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  150.0   1.3   2.1e-48   8.4e-47       1     118 []       1     118 [.       1     118 [. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 150.0 bits;  conditional E-value: 2.1e-48
+        bCoV_NS8   1 mkllivltllslvscihketvvqecaenkpyvledpcpigyqsewfikiksrksarlvalcegdygkvlpihyerfgtyviscepleincqdpav 95 
+                     mk+l+ l+++++v   h+e+++q c++ +pyv++dpcpi+++s+w+i++++rksa l++lc  + g + pi y   g+y++sc p +incq+p  
+  YP_009724396.1   1 MKFLVFLGIITTVAAFHQECSLQSCTQHQPYVVDDPCPIHFYSKWYIRVGARKSAPLIELCVDEAGSKSPIQYIDIGNYTVSCLPFTINCQEPKL 95 
+                     9********************************************************************************************** PP
+
+        bCoV_NS8  96 galivrcsydyetvefrdvlvvl 118
+                     g+l+vrcs+  ++ e++dv+vvl
+  YP_009724396.1  96 GSLVVRCSFYEDFLEYHDVRVVL 118
+                     **********************8 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (121 residues searched)
+Target model(s):                          40  (8009 nodes)
+Passed MSV filter:                         2  (0.05); expected 0.8 (0.02)
+Passed bias filter:                        2  (0.05); expected 0.8 (0.02)
+Passed Vit filter:                         1  (0.025); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (0.025); expected 0.0 (1e-05)
+Initial search space (Z):                 40  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.01s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+Query:       YP_009724397.2  [L=419]
+Description: nucleocapsid phosphoprotein [Wuhan seafood market pneumonia virus]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------      -----------
+   1.4e-106  347.8  12.3   2.1e-106  347.3  12.3    1.2  1  CoV_nucleocap  Coronavirus nucleocapsid
+
+
+Domain annotation for each model (and alignments):
+>> CoV_nucleocap  Coronavirus nucleocapsid
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  347.3  12.3  5.2e-108  2.1e-106       3     338 ..      42     382 ..      21     391 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 347.3 bits;  conditional E-value: 5.2e-108
+   CoV_nucleocap   3 rrrkgrvplSwfapltqeskkkflkvlpgngVPinkgvnkdqqiGYWnrqkR.wrmrkGqrkelppkwyFYYlGTGPhadlkfreridgvvWVak 96 
+                     ++  +++++Swf++ltq++k ++lk+++g+gVPin+++++d+qiGY++r++R +r ++G+ k+l+p+wyFYYlGTGP+a l+++ ++dg++WVa+
+  YP_009724397.2  42 PQGLPNNTASWFTALTQHGK-EDLKFPRGQGVPINTNSSPDDQIGYYRRATRrIRGGDGKMKDLSPRWYFYYLGTGPEAGLPYGANKDGIIWVAT 135
+                     667799**************.*****************************999****************************************** PP
+
+   CoV_nucleocap  97 egAktepts.lgtRnp.nqeaiplkfapg..lpkgfeieess.rsrsssrsssrsqsrsssrsgsksRsqsrnrsssn.sqddlvaavaealkkl 185
+                     egA ++p++ +gtRnp n++ai+l++++g  lpkgf+ e+s+  s++ssrsssrs+++s++++  +sR++s++r   n ++++l+  ++++l++l
+  YP_009724397.2 136 EGALNTPKDhIGTRNPaNNAAIVLQLPQGttLPKGFYAEGSRgGSQASSRSSSRSRNSSRNSTPGSSRGTSPARMAGNgGDAALALLLLDRLNQL 230
+                     ***************************************66659******************************999856777888999****** PP
+
+   CoV_nucleocap 186 glkkekkkgkktpkkktkkaaaeakkkqlekprwKRtpnkgenvtqcFGpRgpek...NfGdaelvkeGvedprfpqlaelvPtaaallfgskve 277
+                     + k ++k+++++ +++tkk+aaea+    +kpr+KRt++k +nvtq+FG+Rgpe+   NfGd+el+++G++++++pq+a+++P+a+a++ +s++ 
+  YP_009724397.2 231 ESKMSGKGQQQQGQTVTKKSAAEAS----KKPRQKRTATKAYNVTQAFGRRGPEQtqgNFGDQELIRQGTDYKHWPQIAQFAPSASAFFGMSRIG 321
+                     ************************9....****************************************************************** PP
+
+   CoV_nucleocap 278 lkeqgddveltytykikvpkddpnlekfleqlnayvdaskeaekkeqkkkkkkkkakpeak 338
+                     ++ ++++++ltyt++ik++++dpn++  +  ln+ +da+k+++++e kk+kkkk+++++a 
+  YP_009724397.2 322 MEVTPSGTWLTYTGAIKLDDKDPNFKDQVILLNKHIDAYKTFPPTEPKKDKKKKADETQAL 382
+                     *********************************************9999999954444432 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (419 residues searched)
+Target model(s):                          40  (8009 nodes)
+Passed MSV filter:                         1  (0.025); expected 0.8 (0.02)
+Passed bias filter:                        1  (0.025); expected 0.8 (0.02)
+Passed Vit filter:                         1  (0.025); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (0.025); expected 0.0 (1e-05)
+Initial search space (Z):                 40  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+Query:       YP_009725255.1  [L=38]
+Description: ORF10 protein [Wuhan seafood market pneumonia virus]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model    Description
+    ------- ------ -----    ------- ------ -----   ---- --  -------- -----------
+
+   [No hits detected that satisfy reporting thresholds]
+
+
+Domain annotation for each model (and alignments):
+
+   [No targets detected that satisfy reporting thresholds]
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (38 residues searched)
+Target model(s):                          40  (8009 nodes)
+Passed MSV filter:                         1  (0.025); expected 0.8 (0.02)
+Passed bias filter:                        0  (0); expected 0.8 (0.02)
+Passed Vit filter:                         0  (0); expected 0.0 (0.001)
+Passed Fwd filter:                         0  (0); expected 0.0 (1e-05)
+Initial search space (Z):                 40  [actual number of targets]
+Domain search space  (domZ):               0  [number of targets reported over threshold]
+# CPU time: 0.00u 0.00s 00:00:00.00 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+Query:       YP_009725295.1  [L=4405]
+Description: orf1a polyprotein [Wuhan seafood market pneumonia virus]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------      -----------
+   2.3e-163  535.8  20.8   2.3e-163  535.8  20.8    3.8  1  CoV_NSP3_C     Coronavirus replicase NSP3, C-terminal
+   1.4e-137  449.1   0.3   2.5e-137  448.2   0.3    1.5  1  Peptidase_C30  Coronavirus endopeptidase C30
+   2.8e-133  435.5   5.8   6.5e-133  434.3   5.8    1.7  1  CoV_peptidase  Coronavirus papain-like peptidase
+   3.7e-122  399.1   9.0   3.7e-122  399.1   9.0    4.5  1  CoV_NSP4_N     Coronavirus replicase NSP4, N-terminal
+    2.1e-97  316.1   6.3    4.9e-97  314.9   6.3    1.7  1  CoV_NSP8       Coronavirus replicase NSP8
+    2.6e-80  258.5   0.3    8.5e-80  256.8   0.3    2.0  1  bCoV_SUD-M     Betacoronavirus single-stranded poly(A) bindin
+    5.3e-64  208.3  28.6    5.3e-64  208.3  28.6    4.8  1  CoV_NSP6       Coronavirus replicase NSP6
+    2.7e-62  199.7  13.0    3.7e-62  199.3  10.8    2.5  1  CoV_NSP10      Coronavirus RNA synthesis protein NSP10
+    5.3e-56  180.2  14.2      1e-53  172.8  14.2    2.5  1  bCoV_NSP3_N    Betacoronavirus replicase NSP3, N-terminal
+    1.1e-51  166.7   5.2    3.9e-51  164.9   5.2    2.1  1  CoV_NSP2_N     Coronavirus replicase NSP2, N-terminal
+    8.7e-51  162.5   0.0    2.8e-50  160.8   0.0    2.0  1  CoV_NSP9       Coronavirus replicase NSP9
+    1.3e-42  136.0   1.2    1.3e-42  136.0   1.2    2.9  1  CoV_NSP4_C     Coronavirus replicase NSP4, C-terminal
+    1.6e-40  129.9   0.7    5.5e-40  128.2   0.7    2.0  1  bCoV_NAR       Betacoronavirus nucleic acid-binding (NAR)
+    2.5e-39  125.2   6.8      1e-38  123.3   6.8    2.2  1  CoV_NSP7       Coronavirus replicase NSP7
+    6.1e-34  107.1   0.3    5.7e-33  104.0   0.1    2.8  1  bCoV_PL2pro    Betacoronavirus polyprotein cleavage domain
+    8.2e-33  104.4   0.0    1.7e-32  103.4   0.0    1.6  1  bCoV_NSP1      Betacoronavirus replicase NSP1
+    5.3e-30   95.8   2.7    6.2e-29   92.4   0.1    3.8  1  CoV_NSP2_C     Coronavirus replicase NSP2, C-terminal
+      4e-20   63.5   0.2    1.9e-19   61.3   0.2    2.3  1  Macro          Macro domain
+
+
+Domain annotation for each model (and alignments):
+>> CoV_NSP3_C  Coronavirus replicase NSP3, C-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  535.8  20.8    1e-163  2.3e-163       2     464 ..    2261    2748 ..    2260    2749 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 535.8 bits;  conditional E-value: 1e-163
+      CoV_NSP3_C    2 llCdgvvkeYsnssf.dksdyCegsllCklClsgydsLsdykhlkvvqqkvkspllldlltllvlavellvalllftkvlvllfllyflqqfv 93  
+                      ++C+g+ ++Y ns+  +   yC+gs+ C++Clsg dsL++y+ l++ q +++s    dl t + l++e+++a++lft ++++l l +++q+f+
+  YP_009725295.1 2261 SYCTGYREGYLNSTNvTIATYCTGSIPCSVCLSGLDSLDTYPSLETIQITISSFK-WDL-TAFGLVAEWFLAYILFTRFFYVLGLAAIMQLFF 2351
+                      58**********9997899**********************************33.555.899****************************** PP
+
+      CoV_NSP3_C   94 nllgvllglqelsw......vvltlvpfssllrivvvvalvikvlkflkHvvyGCkkpsCllCsksarskrvevstvVnGskksfyVnaNgGt 180 
+                      +++ v++  +  sw       +++++p+s ++r+++++a +++v+k + Hvv GC++++C++C+k++r++rve++t+VnG+++sfyV+aNgG+
+  YP_009725295.1 2352 SYFAVHFISN--SWlmwliiNLVQMAPISAMVRMYIFFASFYYVWKSYVHVVDGCNSSTCMMCYKRNRATRVECTTIVNGVRRSFYVYANGGK 2442
+                      *******444..5777899999*********************************************************************** PP
+
+      CoV_NSP3_C  181 kfCkkHnfyCvnCdsygvgnTFIseevaeeLskklkrkvkpTdeayvvvdkVevkdgfvrlysgregqrvyedvtaskfsdveklknlevkkv 273 
+                       fCk Hn++CvnCd+++ g+TFIs+eva++Ls ++kr+++pTd++ ++vd+V+vk+g ++ly++++gq++ye+++ s+f++ ++l+++++k+ 
+  YP_009725295.1 2443 GFCKLHNWNCVNCDTFCAGSTFISDEVARDLSLQFKRPINPTDQSSYIVDSVTVKNGSIHLYFDKAGQKTYERHSLSHFVNLDNLRANNTKGS 2535
+                      ********************************************************************************************* PP
+
+      CoV_NSP3_C  274 pednfivydasngselaqvknaaVyysqllckpillvdkallstlgdsvevakalfdayvdvlsnsfnvdlkklkklvetak........... 355 
+                       + n+iv+d ++++e++++k+a+Vyysql+c+pill+d+al+s++gds eva ++fdayv+++s++fnv ++klk+lv+ta+           
+  YP_009725295.1 2536 LPINVIVFDGKSKCEESSAKSASVYYSQLMCQPILLLDQALVSDVGDSAEVAVKMFDAYVNTFSSTFNVPMEKLKTLVATAEaelaknvsldn 2628
+                      ********************************************************************************************* PP
+
+      CoV_NSP3_C  356 ............aiesdveteefvdavslahkydveltddsfNnlvpsYakpeeklsaedlavliragakvvnanvlkkenvsvvwsakdfkk 436 
+                                   ++sdvet+++v++++l+h+ d+e+t ds+Nn++++Y+k  e+++++dl+++i+++a+++na+v+k++n++++w++kdf++
+  YP_009725295.1 2629 vlstfisaarqgFVDSDVETKDVVECLKLSHQSDIEVTGDSCNNYMLTYNKV-ENMTPRDLGACIDCSARHINAQVAKSHNIALIWNVKDFMS 2720
+                      ***********99***************************************.**************************************** PP
+
+      CoV_NSP3_C  437 LseelrkylvkaakkkGvtlllTfsklr 464 
+                      Lse+lrk++++aakk+++ ++lT++++r
+  YP_009725295.1 2721 LSEQLRKQIRSAAKKNNLPFKLTCATTR 2748
+                      ************************9987 PP
+
+>> Peptidase_C30  Coronavirus endopeptidase C30
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  448.2   0.3  1.1e-137  2.5e-137       1     288 []    3292    3582 ..    3292    3582 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 448.2 bits;  conditional E-value: 1.1e-137
+   Peptidase_C30    1 GlWLddtvyCPrhviakakdsv.edyedllsiarlhdfsvvsgnvqLtvvsaklkgvlLklkvetanaetPkykfvkvkpGesftilaaYdGv 92  
+                      GlWLdd+vyCPrhvi++++d++ ++yedll+++++h+f v++gnvqL+v+++++++++Lklkv+tan++tPkykfv+++pG++f++la+Y+G+
+  YP_009725295.1 3292 GLWLDDVVYCPRHVICTSEDMLnPNYEDLLIRKSNHNFLVQAGNVQLRVIGHSMQNCVLKLKVDTANPKTPKYKFVRIQPGQTFSVLACYNGS 3384
+                      9*********************9********************************************************************** PP
+
+   Peptidase_C30   93 vqgvyevtlrsnktikgsflaGaCGsvGynlekdtvefvYmhhlelsngvhtGtdleGefYGgyvDeevaqlestdqlltdnvvafLYaailn 185 
+                      ++gvy++++r+n tikgsfl+G+CGsvG+n+++d+v+f+Ymhh+el++gvh+GtdleG+fYG++vD+++aq+++td+++t+nv+a+LYaa++n
+  YP_009725295.1 3385 PSGVYQCAMRPNFTIKGSFLNGSCGSVGFNIDYDCVSFCYMHHMELPTGVHAGTDLEGNFYGPFVDRQTAQAAGTDTTITVNVLAWLYAAVIN 3477
+                      ********************************************************************************************* PP
+
+   Peptidase_C30  186 verWfleseevsledfnawakkngftelkaeda..lskLaaktgvsvekllaaikr.lnsgfgGktilgkssledeftpeevvkqlagvklqs 275 
+                      ++rWfl++++++l+dfn +a+k+++++l+++++  l  L+a+tg++v +++a++k+ l++g++G+tilg++ ledeftp++vv+q++gv++qs
+  YP_009725295.1 3478 GDRWFLNRFTTTLNDFNLVAMKYNYEPLTQDHVdiLGPLSAQTGIAVLDMCASLKElLQNGMNGRTILGSALLEDEFTPFDVVRQCSGVTFQS 3570
+                      ********************************9999********************89**********************************8 PP
+
+   Peptidase_C30  276 gkvkkivkktslw 288 
+                      + vk+ +k+t++w
+  YP_009725295.1 3571 A-VKRTIKGTHHW 3582
+                      7.*********99 PP
+
+>> CoV_peptidase  Coronavirus papain-like peptidase
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  434.3   5.8  2.9e-133  6.5e-133       1     320 []    1564    1882 ..    1564    1882 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 434.3 bits;  conditional E-value: 2.9e-133
+   CoV_peptidase    1 evkvitifvteDgvnlhsvvvktdkslgqqfGvvyakdkdlskvvpaddvedkellkvpsvDtleseafkdileyatlDesalaiYlsal..a 91  
+                      ev++i++f+t+D++nlh++vv++++++gqqfG++y++++d++k++p++ +e+k++ ++p++Dtl+ eaf+   +y+t D s+l++Y+sal  +
+  YP_009725295.1 1564 EVRTIKVFTTVDNINLHTQVVDMSMTYGQQFGPTYLDGADVTKIKPHNSHEGKTFYVLPNDDTLRVEAFE---YYHTTDPSFLGRYMSALnhT 1653
+                      799*******************************************************************...******************** PP
+
+   CoV_peptidase   92 kkwkvqqvdgllvlkwaDnnCwvssvlvaLqaakvkFkaqaLdeAwakllaGDaedFvAlvyavarkkvGdlgDaeetltkLakhldaeaakr 184 
+                      kkwk++qv+gl+++kwaDnnC++ ++l+ Lq+ ++kF+ +aL++A+++++aG+a++F+Al++a+++k+vG+lgD++et++ L +h+++++ kr
+  YP_009725295.1 1654 KKWKYPQVNGLTSIKWADNNCYLATALLTLQQIELKFNPPALQDAYYRARAGEAANFCALILAYCNKTVGELGDVRETMSYLFQHANLDSCKR 1746
+                      ********************************************************************************************* PP
+
+   CoV_peptidase  185 llkksvcveCgakktelagveavivvaavkldnlktgysipcvcGadatdevveaessfvllsaedlPaaeskledgvalva..fsGsvdkGH 275 
+                      +l+ +vc+ Cg+++t+l+gveav+++++++++++k g+ ipc+cG++at+++v++es+fv++sa   P+a++ l++g++++a  ++G++++GH
+  YP_009725295.1 1747 VLN-VVCKTCGQQQTTLKGVEAVMYMGTLSYEQFKKGVQIPCTCGKQATKYLVQQESPFVMMSA---PPAQYELKHGTFTCAseYTGNYQCGH 1835
+                      ***.************************************************************...************************** PP
+
+   CoV_peptidase  276 YtydtAkkaly..dgaklvkfdkkklsvtavftkeafktetvkPvak 320 
+                      Y ++t k++ly  dga l+k +++k+++t+vf+ke ++t+t+kPv++
+  YP_009725295.1 1836 YKHITSKETLYciDGALLTKSSEYKGPITDVFYKENSYTTTIKPVTY 1882
+                      *********************************************85 PP
+
+>> CoV_NSP4_N  Coronavirus replicase NSP4, N-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  399.1   9.0  1.7e-122  3.7e-122       1     352 [.    2788    3141 ..    2788    3142 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 399.1 bits;  conditional E-value: 1.7e-122
+      CoV_NSP4_N    1 llllplsvvtkvavksdevldFkvienGvlrdiestdkCfaNkfksFdewyeakfgsytnsksCPivvgvvdevvgkvvpgvpakvllv.ggt 92  
+                      +l++p++v++k++ +s+e +++k i+ Gv rdi std+CfaNk+++Fd+w+++++gsytn+k+CP++ +v++++vg vvpg+p+++l+  +g+
+  YP_009725295.1 2788 YLITPVHVMSKHTDFSSEIIGYKAIDGGVTRDIASTDTCFANKHADFDTWFSQRGGSYTNDKACPLIAAVITREVGFVVPGLPGTILRTtNGD 2880
+                      68999**********************************************************************************997999 PP
+
+      CoV_NSP4_N   93 ilhflkevfsaegnvcYtrsevvegesflksacvfnsaCtlLeglegerelYCydeglvegaklYsdllphveYkladgnlvklPevileggl 185 
+                      +lhfl +vfsa gn+cYt+s+++e+++f++sacv++++Ct++++++g++++YCyd++++eg+  Y++l p+++Y l+dg+++++P++ leg +
+  YP_009725295.1 2881 FLHFLPRVFSAVGNICYTPSKLIEYTDFATSACVLAAECTIFKDASGKPVPYCYDTNVLEGSVAYESLRPDTRYVLMDGSIIQFPNTYLEGSV 2973
+                      ********************************************************************************************* PP
+
+      CoV_NSP4_N  186 rivrtlattYCrvGeCekskaGvCvslneefvlnnevy.skpgvyCgedlldlvtnvlsvfvssvsvvaltaqlllnlvlaviivlvlylvlk 277 
+                      r+v t +++YCr+G+Ce+s+aGvCvs+++++vlnn++y s pgv+Cg d+++l+tn+++ +++++ +++++a+++++ ++a+++++  y++++
+  YP_009725295.1 2974 RVVTTFDSEYCRHGTCERSEAGVCVSTSGRWVLNNDYYrSLPGVFCGVDAVNLLTNMFTPLIQPIGALDISASIVAGGIVAIVVTCLAYYFMR 3066
+                      ********************************************************************************************* PP
+
+      CoV_NSP4_N  278 fkrlFgdyttlvltvvlaavvnnlsllvtqknlvlavvyavlYlyvtltltsevavimhlsflvayvplvplwll 352 
+                      f+r+Fg+y+++v  ++l++++++ +l++t  +++l  vy+v+Yly+t++lt++v++++h++++v+++plvp+w++
+  YP_009725295.1 3067 FRRAFGEYSHVVAFNTLLFLMSFTVLCLTPVYSFLPGVYSVIYLYLTFYLTNDVSFLAHIQWMVMFTPLVPFWIT 3141
+                      *************************************************************************97 PP
+
+>> CoV_NSP8  Coronavirus replicase NSP8
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  314.9   6.3   2.2e-97   4.9e-97       1     197 []    3943    4139 ..    3943    4139 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 314.9 bits;  conditional E-value: 2.2e-97
+        CoV_NSP8    1 svasefsalpsyvayekakeeyeeakangssqqelkqlkkalniaksefdrdaavqkklekmaeqaltamykearvedrkskvvsalhsllfs 93  
+                      ++asefs+lpsy+a+++a+e+ye+a+ang+s+++lk+lkk+ln+aksefdrdaa+q+klekma+qa+t+myk+ar+ed+++kv+sa++++lf+
+  YP_009725295.1 3943 AIASEFSSLPSYAAFATAQEAYEQAVANGDSEVVLKKLKKSLNVAKSEFDRDAAMQRKLEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFT 4035
+                      69******************************************************************************************* PP
+
+        CoV_NSP8   94 mlrkldsealntildqarnGvvPlsiiPavsaaklvvvvPdkevfkkvveevtvtyagavWeiqevkdadgkevhlkevtaeseanlaWPliv 186 
+                      mlrkld++aln+i+++ar+G+vPl+iiP+++aakl+vv+Pd++++k++++++t+tya+a+Weiq+v+dad+k v+l+e+++++++nlaWPliv
+  YP_009725295.1 4036 MLRKLDNDALNNIINNARDGCVPLNIIPLTTAAKLMVVIPDYNTYKNTCDGTTFTYASALWEIQQVVDADSKIVQLSEISMDNSPNLAWPLIV 4128
+                      ********************************************************************************************* PP
+
+        CoV_NSP8  187 taeraneavkl 197 
+                      ta ran+avkl
+  YP_009725295.1 4129 TALRANSAVKL 4139
+                      *********98 PP
+
+>> bCoV_SUD-M  Betacoronavirus single-stranded poly(A) binding domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  256.8   0.3   3.8e-80   8.5e-80       1     143 []    1351    1493 ..    1351    1493 .. 1.00
+
+  Alignments for each domain:
+  == domain 1  score: 256.8 bits;  conditional E-value: 3.8e-80
+      bCoV_SUD-M    1 safyvlpseapnakeeilgtvswnlremlahaeetrklmpicmdvraimatiqrkykgikiqegivdygvrfffytskepvasiitklnslne 93  
+                      safy+lps   n k+eilgtvswnlremlahaeetrklmp+c++ +ai++tiqrkykgikiqeg+vdyg rf+fytsk  vas+i  ln lne
+  YP_009725295.1 1351 SAFYILPSIISNEKQEILGTVSWNLREMLAHAEETRKLMPVCVETKAIVSTIQRKYKGIKIQEGVVDYGARFYFYTSKTTVASLINTLNDLNE 1443
+                      89******************************************************************************************* PP
+
+      bCoV_SUD-M   94 plvtmpigyvthgfnleeaarcmrslkapavvsvsspdavttyngyltss 143 
+                       lvtmp+gyvthg+nleeaar mrslk pa vsvsspdavt+yngyltss
+  YP_009725295.1 1444 TLVTMPLGYVTHGLNLEEAARYMRSLKVPATVSVSSPDAVTAYNGYLTSS 1493
+                      ************************************************98 PP
+
+>> CoV_NSP6  Coronavirus replicase NSP6
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  208.3  28.6   2.4e-64   5.3e-64       2     268 .]    3598    3859 ..    3597    3859 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 208.3 bits;  conditional E-value: 2.4e-64
+        CoV_NSP6    2 lkytlllvlnpelltlvllvlllvsavltllvKHkvlFlttfllPsvivlvvsnllldyvvesllaevveylsevevsllsvdvqlvvlillv 94  
+                      ++++l+++l ++ ++++ + ++++sa+++++vKHk+ Fl +fllPs+ ++++ n  ++y+++s++++++ +l  v++sl  ++++ +v+ ++ 
+  YP_009725295.1 3598 TQWSLFFFLYENAFLPFAMGIIAMSAFAMMFVKHKHAFLCLFLLPSLATVAYFN--MVYMPASWVMRIMTWLDMVDTSLSGFKLKDCVMYASA 3688
+                      5899**************************************************..66779**********999******************* PP
+
+        CoV_NSP6   95 vlvvvlhtlrfvksklsslitllvslvvvvynyvlvselelesdvlslllmvlslltsewlvaavsyklakyivlllallspalvavlgdvkv 187 
+                      v++++l+t+r+v  + +  +++l+++++ vy +++  +l     ++s+   ++s++++++ v++ ++ la+ iv++ + + p ++ +  ++++
+  YP_009725295.1 3689 VVLLILMTARTVYDDGARRVWTLMNVLTLVYKVYYGNALDQ---AISMWALIISVTSNYSGVVTTVMFLARGIVFMCVEYCPIFFITGNTLQC 3778
+                      ********************************995555555...5999999**********************99877678999999999*** PP
+
+        CoV_NSP6  188 vllvYlllGyvvcvyfGvlyliNrftkltlGvYdfkVSaaelkYmvAnglsaPrnafealvlnlkLlGiGGkrnikistvQ 268 
+                      ++lvY++lGy++++yfG++ l+Nr ++ltlGvYd+ VS++e++Ym+++gl +P+n+++a  ln+kLlG+GGk++ik++tvQ
+  YP_009725295.1 3779 IMLVYCFLGYFCTCYFGLFCLLNRYFRLTLGVYDYLVSTQEFRYMNSQGLLPPKNSIDAFKLNIKLLGVGGKPCIKVATVQ 3859
+                      ********************************************************************************9 PP
+
+>> CoV_NSP10  Coronavirus RNA synthesis protein NSP10
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  199.3  10.8   1.7e-62   3.7e-62       1     122 []    4262    4384 ..    4262    4384 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 199.3 bits;  conditional E-value: 1.7e-62
+       CoV_NSP10    1 snsallslcafavdpakayldyvkeGgkpvtncvkmlashaGsGlaitvkpeantdqdsyGGasvclycrahvehpnldGlcklkGkfvqvpt 93  
+                      +ns++ls+cafavd akay+dy+++Gg+p+tncvkml++h+G+G+aitv+pean+dq+s+GGas+clycr+h++hpn +G+c+lkGk+vq+pt
+  YP_009725295.1 4262 ANSTVLSFCAFAVDAAKAYKDYLASGGQPITNCVKMLCTHTGTGQAITVTPEANMDQESFGGASCCLYCRCHIDHPNPKGFCDLKGKYVQIPT 4354
+                      59******************************************************************************************9 PP
+
+       CoV_NSP10   94 g.akdpvsfalenevckvcglwlnygcscd 122 
+                      + a+dpv+f+l+n+vc+vcg+w++ygcscd
+  YP_009725295.1 4355 TcANDPVGFTLKNTVCTVCGMWKGYGCSCD 4384
+                      989**************************7 PP
+
+>> bCoV_NSP3_N  Betacoronavirus replicase NSP3, N-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  172.8  14.2   4.7e-54     1e-53       1     148 [.     880    1050 ..     880    1051 .. 0.78
+
+  Alignments for each domain:
+  == domain 1  score: 172.8 bits;  conditional E-value: 4.7e-54
+     bCoV_NSP3_N    1 vktlqpvselltnlgidldewsvatyylfdeageeklssrmycsfyppdeeeeddeeeeeeeieeaceheygteddykglplefgasaetvrv 93  
+                      +ktlqpvsellt+lgidldews+atyylfde+ge+kl+s mycsfyppde+ee+ + +eeee e + ++eygteddy+g plefga++ + + 
+  YP_009725295.1  880 IKTLQPVSELLTPLGIDLDEWSMATYYLFDESGEFKLASHMYCSFYPPDEDEEEGD-CEEEEFEPSTQYEYGTEDDYQGKPLEFGATSAALQP 971 
+                      8*************************************************999776.567889****************************** PP
+
+     bCoV_NSP3_N   94 eeeeeedwlddviet.......s............eiep..epeplp...eepvnqfvgylkltdnvaikcvdivkeaq 148 
+                      eee+eedwldd  ++       s            e++p  e e +p      vn f gylkltdnv ik  div ea+
+  YP_009725295.1  972 EEEQEEDWLDDDSQQtvgqqdgSednqtttiqtivEVQPqlEMELTPvvqTIEVNSFSGYLKLTDNVYIKNADIVEEAK 1050
+                      *********985433111112211111121211112333222233331113469***********************96 PP
+
+>> CoV_NSP2_N  Coronavirus replicase NSP2, N-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  164.9   5.2   1.8e-51   3.9e-51       2     200 .]     183     423 ..     182     423 .. 0.98
+
+  Alignments for each domain:
+  == domain 1  score: 164.9 bits;  conditional E-value: 1.8e-51
+      CoV_NSP2_N   2 viyVdqymCgadGkpvleeatlalkdyladdeed..........ielkgktyrva.......wkveRkdvpyekQtlftiksikel....gevph 75 
+                     ++yVd+++Cg+dG+p+      ++kd+la+++++          i+ k+++y+++       w +eR++++ye Qt+f+ik +k++    ge+p+
+  YP_009725295.1 183 TRYVDNNFCGPDGYPLE-----CIKDLLARAGKAsctlseqldfIDTKRGVYCCReheheiaWYTERSEKSYELQTPFEIKLAKKFdtfnGECPN 272
+                     69***************.....**********99************************************************************* PP
+
+      CoV_NSP2_N  76 vl..lngkvkkvaprvkkskkvvlseklkslYkavgspfventkpvflsalvkCksCgeeswtvgdwlgfkceccgtet.ksvcvesaGlvkpga 167
+                     ++  ln+ +k+++prv+k+k ++++ +++s+Y +++++++++   + ls+l+kC +Cge+sw++gd+++++ce cgte  ++   +++G+++++a
+  YP_009725295.1 273 FVfpLNSIIKTIQPRVEKKKLDGFMGRIRSVYPVASPNECNQ---MCLSTLMKCDHCGETSWQTGDFVKATCEFCGTENlTKEGATTCGYLPQNA 364
+                     *99*************************************77...*********************************87777779********* PP
+
+      CoV_NSP2_N 168 vl..........................lvtkaevgagtkffgGvvlkyvgkvegvavw 200
+                     v+                          l t  ++g +t  fgG+v++yvg+ ++ a+w
+  YP_009725295.1 365 VVkiycpachnsevgpehslaeyhnesgLKTILRKGGRTIAFGGCVFSYVGCHNKCAYW 423
+                     *********************************************************** PP
+
+>> CoV_NSP9  Coronavirus replicase NSP9
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  160.8   0.0   1.2e-50   2.8e-50       1     111 []    4141    4253 ..    4141    4253 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 160.8 bits;  conditional E-value: 1.2e-50
+        CoV_NSP9    1 nnellPgklktkavkagat.daeisseakayynneggksvvyallsskdnlkyakfekedgn.vivveLepPcrfvvdtvkgvkvkYLYfvkn 91  
+                      nnel+P++l++++++ag+t +a+++++a ayyn+++g+++v+alls+ ++lk+a+f+k+dg+ +i++eLepPcrfv+dt+kg+kvkYLYf+k+
+  YP_009725295.1 4141 NNELSPVALRQMSCAAGTTqTACTDDNALAYYNTTKGGRFVLALLSDLQDLKWARFPKSDGTgTIYTELEPPCRFVTDTPKGPKVKYLYFIKG 4233
+                      9******************8889999************************************9****************************** PP
+
+        CoV_NSP9   92 lntlrrGavlGaisatvrLq 111 
+                      ln+l+rG+vlG+++atvrLq
+  YP_009725295.1 4234 LNNLNRGMVLGSLAATVRLQ 4253
+                      *******************9 PP
+
+>> CoV_NSP4_C  Coronavirus replicase NSP4, C-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  136.0   1.2   5.9e-43   1.3e-42       1      95 [.    3166    3261 ..    3166    3262 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 136.0 bits;  conditional E-value: 5.9e-43
+      CoV_NSP4_C    1 lfeGdefvgtfeeaalstfvidkesyvkLkne..isldklkrylslynkykyysGkldeadyreaayahLakaledfsnsgndvlytPPtvsv 91  
+                      +f+G+ f +tfeeaal+tf+++ke+y+kL+++  ++l++++ryl+lynkyky+sG++d+++yreaa++hLakal+dfsnsg+dvly+PP++s+
+  YP_009725295.1 3166 VFNGVSF-STFEEAALCTFLLNKEMYLKLRSDvlLPLTQYNRYLALYNKYKYFSGAMDTTSYREAACCHLAKALNDFSNSGSDVLYQPPQTSI 3257
+                      59*****.************************77799******************************************************** PP
+
+      CoV_NSP4_C   92 tssl 95  
+                      ts++
+  YP_009725295.1 3258 TSAV 3261
+                      **97 PP
+
+>> bCoV_NAR  Betacoronavirus nucleic acid-binding (NAR)
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  128.2   0.7   2.5e-40   5.5e-40       8     117 .]    1922    2019 ..    1909    2019 .. 0.95
+
+  Alignments for each domain:
+  == domain 1  score: 128.2 bits;  conditional E-value: 2.5e-40
+        bCoV_NAR    8 kasfrtfekvdgvydnfklv..ntkiaedlnaklGfdctkpav.elkvtefpdltGdvvlidddlyvarykkGakllgkpvvwlgheeaalkk 97  
+                      +as          +dnfk+v  n k+a+dln+ +G+  +kpa+ elkvt+fpdl+Gdvv+id+++y+ ++kkGakll+kp+vw  h+++a++k
+  YP_009725295.1 1922 NAS----------FDNFKFVcdNIKFADDLNQLTGY--KKPASrELKVTFFPDLNGDVVAIDYKHYTPSFKKGAKLLHKPIVW--HVNNATNK 2000
+                      444..........5******999*************..*********************************************..******** PP
+
+        bCoV_NAR   98 ltyfnkpsvvc.enkfsvkpv 117 
+                       ty  kp+++c ++++s+kpv
+  YP_009725295.1 2001 ATY--KPNTWCiRCLWSTKPV 2019
+                      ***..***************8 PP
+
+>> CoV_NSP7  Coronavirus replicase NSP7
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  123.3   6.8   4.6e-39     1e-38       1      83 []    3860    3942 ..    3860    3942 .. 0.99
+
+  Alignments for each domain:
+  == domain 1  score: 123.3 bits;  conditional E-value: 4.6e-39
+        CoV_NSP7    1 skltdvkCtnvvLlslLqklnvesnsklwaycvelHneilladDleealekllallvvllskdsavdleelvddylenstvLq 83  
+                      sk++dvkCt+vvLls+Lq+l+ves+sklwa+cv+lHn+illa+D++ea+ek+++ll+vlls+++avd+++l++++l+n+++Lq
+  YP_009725295.1 3860 SKMSDVKCTSVVLLSVLQQLRVESSSKLWAQCVQLHNDILLAKDTTEAFEKMVSLLSVLLSMQGAVDINKLCEEMLDNRATLQ 3942
+                      8*********************************************************************************9 PP
+
+>> bCoV_PL2pro  Betacoronavirus polyprotein cleavage domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  104.0   0.1   2.6e-33   5.7e-33       2      66 .]    1498    1561 ..    1497    1561 .. 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 104.0 bits;  conditional E-value: 2.6e-33
+     bCoV_PL2pro    2 eehfvetvslaGsyrdwsysGqrtelGveflkrGdkivyhtlespvefhldGevlsldklkslls 66  
+                      eehf+et+slaGsy+dwsysGq t+lG+eflkrGdk vy+t   p  fhldGev+++d lk+lls
+  YP_009725295.1 1498 EEHFIETISLAGSYKDWSYSGQSTQLGIEFLKRGDKSVYYTS-NPTTFHLDGEVITFDNLKTLLS 1561
+                      9***************************************95.7*******************98 PP
+
+>> bCoV_NSP1  Betacoronavirus replicase NSP1
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !  103.4   0.0   7.5e-33   1.7e-32       3     137 ..       9     143 ..       7     144 .. 0.93
+
+  Alignments for each domain:
+  == domain 1  score: 103.4 bits;  conditional E-value: 7.5e-33
+       bCoV_NSP1   3 krkdhvsltlplidagdvvkvtpwdmdveeAletvkeeLkkkgkllfvplelgvlkllpeprVylvesl....tgGtksepfpvreLaydesavr 93 
+                     ++k+hv+l+lp+++++d v v+++ ++vee l +++++Lk+ g++ +v++e+gvl++l++p+V++++s      +G+      + eL+++ ++++
+  YP_009725295.1   9 NEKTHVQLSLPVLQVRD-VLVRGFGDSVEEVLSEARQHLKD-GTCGLVEVEKGVLPQLEQPYVFIKRSDartaPHGHV-----MVELVAELEGIQ 96 
+                     79***************.9*********************9.*************************99665556666.....789********* PP
+
+       bCoV_NSP1  94 tgrsGktvGvllPldselvtgeitilLRk...kGlggnserevpklr 137
+                     +grsG+t+Gvl+P+++e++++++++lLRk   kG+gg+s+ +++k+ 
+  YP_009725295.1  97 YGRSGETLGVLVPHVGEIPVAYRKVLLRKngnKGAGGHSYGADLKSF 143
+                     *****************************888899****99988765 PP
+
+>> CoV_NSP2_C  Coronavirus replicase NSP2, C-terminal
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   92.4   0.1   2.8e-29   6.2e-29       1     157 []     652     818 ..     652     818 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 92.4 bits;  conditional E-value: 2.8e-29
+      CoV_NSP2_C   1 lksakltvvkggivftvakkfkslvktlldllnkaldllvdtvkiagvkfka...ggtyilfsgnalvkvvsvklkgvkqkg....lkgakeatv 88 
+                     ++++++ +v g+iv  +ak +k+ v+t+ +l+nk+l l+ d++ i+g k+ka   g+t++ +s ++l++ +   +k +++ g    lk+ ke+ +
+  YP_009725295.1 652 ISTCACEIVGGQIVT-CAKEIKESVQTFFKLVNKFLALCADSIIIGGAKLKAlnlGETFVTHS-KGLYRKC---VKSREETGllmpLKAPKEIIF 741
+                     5789***********.***********************************************.*******...88889888999********** PP
+
+      CoV_NSP2_C  89 fvgatvpvkstrvEvvt.....veLe.evdyveppkvkGklvvidgyaFyksgdk..yYpastdgvvvpkvFrlkgg 157
+                     ++g+t p+++ + Evv      ++Le ++ ++++ + +G++v+i+g++ ++ +d+  y+++++++ v++++F+lkgg
+  YP_009725295.1 742 LEGETLPTEVLTEEVVLktgdlQPLEqPTSEAVEAPLVGTPVCINGLMLLEIKDTekYCALAPNMMVTNNTFTLKGG 818
+                     ***************999*9985555256777779*******************999******************98 PP
+
+>> Macro  Macro domain
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   61.3   0.2   8.5e-20   1.9e-19       1     117 [.    1058    1164 ..    1058    1165 .. 0.94
+
+  Alignments for each domain:
+  == domain 1  score: 61.3 bits;  conditional E-value: 8.5e-20
+           Macro    1 VnaaNsrllggggvagaihraagkalkeeckelekkqggcllGeavvtpaynlpakyvihtvgplftsskskeeeellakayknalelaeekg 93  
+                      VnaaN +l++gggvaga+++a  +a++ e++++   +g++++G  +v++++nl  k+++h+vgp ++   + e+ +ll++ay+n       ++
+  YP_009725295.1 1058 VNAANVYLKHGGGVAGALNKATNNAMQVESDDYIATNGPLKVGGSCVLSGHNLA-KHCLHVVGPNVN---KGEDIQLLKSAYENF------NQ 1140
+                      9****************************************************9.**********95...8999***********......66 PP
+
+           Macro   94 iksvafPaistGifgvpweeaarv 117 
+                       + +  P +s+Gifg ++  + rv
+  YP_009725295.1 1141 HEVLLAPLLSAGIFGADPIHSLRV 1164
+                      6799***********998766665 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (4405 residues searched)
+Target model(s):                          40  (8009 nodes)
+Passed MSV filter:                        19  (0.475); expected 0.8 (0.02)
+Passed bias filter:                       18  (0.45); expected 0.8 (0.02)
+Passed Vit filter:                        18  (0.45); expected 0.0 (0.001)
+Passed Fwd filter:                        18  (0.45); expected 0.0 (1e-05)
+Initial search space (Z):                 40  [actual number of targets]
+Domain search space  (domZ):              18  [number of targets reported over threshold]
+# CPU time: 0.07u 0.00s 00:00:00.07 Elapsed: 00:00:00.07
+# Mc/sec: 503.99
+//
+Query:       YP_009725296.1  [L=43]
+Description: ORF7b [Wuhan seafood market pneumonia virus]
+Scores for complete sequence (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Model     Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------  -----------
+      1e-26   84.0  12.3    1.1e-26   84.0  12.3    1.0  1  bCoV_NS7B  Betacoronavirus NS7B protein
+
+
+Domain annotation for each model (and alignments):
+>> bCoV_NS7B  Betacoronavirus NS7B protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   84.0  12.3   2.6e-28   1.1e-26       1      42 [.       1      42 [.       1      43 [] 0.97
+
+  Alignments for each domain:
+  == domain 1  score: 84.0 bits;  conditional E-value: 2.6e-28
+       bCoV_NS7B  1 mneLtLiDFYLCFLaFLLFLvLimLliFWFsLeiqDleePCt 42
+                    m eL LiDFYLCFLaFLLFLvLimL+iFWFsLe+qD +e C 
+  YP_009725296.1  1 MIELSLIDFYLCFLAFLLFLVLIMLIIFWFSLELQDHNETCH 42
+                    88***************************************5 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query sequence(s):                         1  (43 residues searched)
+Target model(s):                          40  (8009 nodes)
+Passed MSV filter:                         2  (0.05); expected 0.8 (0.02)
+Passed bias filter:                        2  (0.05); expected 0.8 (0.02)
+Passed Vit filter:                         1  (0.025); expected 0.0 (0.001)
+Passed Fwd filter:                         1  (0.025); expected 0.0 (1e-05)
+Initial search space (Z):                 40  [actual number of targets]
+Domain search space  (domZ):               1  [number of targets reported over threshold]
+# CPU time: 0.00u 0.01s 00:00:00.01 Elapsed: 00:00:00.00
+# Mc/sec: inf
+//
+[ok]

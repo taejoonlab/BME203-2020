@@ -1,0 +1,91 @@
+##gff-version 3
+##sequence-region P0DTD1 1 7096
+P0DTD1	UniProtKB	Chain	1	7096	.	.	.	ID=PRO_0000449618;Note=Replicase polyprotein 1ab	
+P0DTD1	UniProtKB	Chain	1	180	.	.	.	ID=PRO_0000449619;Note=Host translation inhibitor nsp1;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	181	818	.	.	.	ID=PRO_0000449620;Note=Non-structural protein 2;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	819	2763	.	.	.	ID=PRO_0000449621;Note=Non-structural protein 3;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	2764	3263	.	.	.	ID=PRO_0000449622;Note=Non-structural protein 4;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	3264	3569	.	.	.	ID=PRO_0000449623;Note=3C-like proteinase;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	3570	3859	.	.	.	ID=PRO_0000449624;Note=Non-structural protein 6;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	3860	3942	.	.	.	ID=PRO_0000449625;Note=Non-structural protein 7;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	3943	4140	.	.	.	ID=PRO_0000449626;Note=Non-structural protein 8;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	4141	4253	.	.	.	ID=PRO_0000449627;Note=Non-structural protein 9;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	4254	4392	.	.	.	ID=PRO_0000449628;Note=Non-structural protein 10;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	4393	5324	.	.	.	ID=PRO_0000449629;Note=RNA-directed RNA polymerase;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	5325	5925	.	.	.	ID=PRO_0000449630;Note=Helicase;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	5926	6452	.	.	.	ID=PRO_0000449631;Note=Proofreading exoribonuclease;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	6453	6798	.	.	.	ID=PRO_0000449632;Note=Uridylate-specific endoribonuclease;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Chain	6799	7096	.	.	.	ID=PRO_0000449633;Note=2'-O-methyltransferase;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Topological domain	1	2225	.	.	.	Note=Cytoplasmic;Ontology_term=ECO:0000305;evidence=ECO:0000305	
+P0DTD1	UniProtKB	Transmembrane	2226	2246	.	.	.	Note=Helical;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Topological domain	2247	2317	.	.	.	Note=Lumenal;Ontology_term=ECO:0000305;evidence=ECO:0000305	
+P0DTD1	UniProtKB	Transmembrane	2318	2338	.	.	.	Note=Helical;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Topological domain	2339	2775	.	.	.	Note=Cytoplasmic;Ontology_term=ECO:0000305;evidence=ECO:0000305	
+P0DTD1	UniProtKB	Transmembrane	2776	2796	.	.	.	Note=Helical;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Topological domain	2797	3044	.	.	.	Note=Lumenal;Ontology_term=ECO:0000305;evidence=ECO:0000305	
+P0DTD1	UniProtKB	Transmembrane	3045	3065	.	.	.	Note=Helical;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Topological domain	3066	3099	.	.	.	Note=Cytoplasmic;Ontology_term=ECO:0000305;evidence=ECO:0000305	
+P0DTD1	UniProtKB	Transmembrane	3100	3120	.	.	.	Note=Helical;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Topological domain	3121	3127	.	.	.	Note=Lumenal;Ontology_term=ECO:0000305;evidence=ECO:0000305	
+P0DTD1	UniProtKB	Transmembrane	3128	3148	.	.	.	Note=Helical;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Topological domain	3149	3586	.	.	.	Note=Cytoplasmic;Ontology_term=ECO:0000305;evidence=ECO:0000305	
+P0DTD1	UniProtKB	Transmembrane	3587	3607	.	.	.	Note=Helical;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Topological domain	3608	3608	.	.	.	Note=Lumenal;Ontology_term=ECO:0000305;evidence=ECO:0000305	
+P0DTD1	UniProtKB	Transmembrane	3609	3629	.	.	.	Note=Helical;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Topological domain	3630	3634	.	.	.	Note=Cytoplasmic;Ontology_term=ECO:0000305;evidence=ECO:0000305	
+P0DTD1	UniProtKB	Transmembrane	3635	3655	.	.	.	Note=Helical;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Topological domain	3656	3673	.	.	.	Note=Lumenal;Ontology_term=ECO:0000305;evidence=ECO:0000305	
+P0DTD1	UniProtKB	Transmembrane	3674	3694	.	.	.	Note=Helical;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Topological domain	3695	3729	.	.	.	Note=Cytoplasmic;Ontology_term=ECO:0000305;evidence=ECO:0000305	
+P0DTD1	UniProtKB	Transmembrane	3730	3750	.	.	.	Note=Helical;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Topological domain	3751	3778	.	.	.	Note=Lumenal;Ontology_term=ECO:0000305;evidence=ECO:0000305	
+P0DTD1	UniProtKB	Transmembrane	3779	3799	.	.	.	Note=Helical;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Topological domain	3800	7096	.	.	.	Note=Cytoplasmic;Ontology_term=ECO:0000305;evidence=ECO:0000305	
+P0DTD1	UniProtKB	Repeat	545	569	.	.	.	Note=LRR 1;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Repeat	697	719	.	.	.	Note=LRR 2;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Domain	1025	1194	.	.	.	Note=Macro;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00490	
+P0DTD1	UniProtKB	Domain	1634	1898	.	.	.	Note=Peptidase C16;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00444	
+P0DTD1	UniProtKB	Repeat	1680	1702	.	.	.	Note=LRR 3;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Repeat	3185	3206	.	.	.	Note=LRR 4;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Domain	3264	3569	.	.	.	Note=Peptidase C30;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00772	
+P0DTD1	UniProtKB	Repeat	3935	3959	.	.	.	Note=LRR 5;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Repeat	3977	4004	.	.	.	Note=LRR 6;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Repeat	4591	4616	.	.	.	Note=LRR 7;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Domain	5004	5166	.	.	.	Note=RdRp catalytic;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00539	
+P0DTD1	UniProtKB	Domain	5325	5408	.	.	.	Note=CV ZBD;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00986	
+P0DTD1	UniProtKB	Repeat	5552	5572	.	.	.	Note=LRR 8;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Domain	5581	5762	.	.	.	Note=(+)RNA virus helicase ATP-binding;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00990	
+P0DTD1	UniProtKB	Domain	5763	5932	.	.	.	Note=(+)RNA virus helicase C-terminal;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00990	
+P0DTD1	UniProtKB	Repeat	6817	6841	.	.	.	Note=LRR 9;Ontology_term=ECO:0000255;evidence=ECO:0000255	
+P0DTD1	UniProtKB	Zinc finger	1752	1789	.	.	.	Note=C4-type;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00444	
+P0DTD1	UniProtKB	Nucleotide binding	5606	5613	.	.	.	Note=NTP;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00990	
+P0DTD1	UniProtKB	Active site	1674	1674	.	.	.	Note=For PL1-PRO activity;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00444	
+P0DTD1	UniProtKB	Active site	1835	1835	.	.	.	Note=For PL2-PRO activity;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00444	
+P0DTD1	UniProtKB	Active site	3304	3304	.	.	.	Note=For 3CL-PRO activity;Ontology_term=ECO:0000255,ECO:0000305;evidence=ECO:0000255|PROSITE-ProRule:PRU00772,ECO:0000305|PubMed:32198291;Dbxref=PMID:32198291	
+P0DTD1	UniProtKB	Active site	3408	3408	.	.	.	Note=Nucleophile%3B for 3CL-PRO activity;Ontology_term=ECO:0000255,ECO:0000269;evidence=ECO:0000255|PROSITE-ProRule:PRU00772,ECO:0000269|PubMed:32198291;Dbxref=PMID:32198291	
+P0DTD1	UniProtKB	Metal binding	5329	5329	.	.	.	Note=Zinc 1;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00986	
+P0DTD1	UniProtKB	Metal binding	5332	5332	.	.	.	Note=Zinc 1;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00986	
+P0DTD1	UniProtKB	Metal binding	5340	5340	.	.	.	Note=Zinc 2;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00986	
+P0DTD1	UniProtKB	Metal binding	5343	5343	.	.	.	Note=Zinc 1;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00986	
+P0DTD1	UniProtKB	Metal binding	5350	5350	.	.	.	Note=Zinc 1;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00986	
+P0DTD1	UniProtKB	Metal binding	5353	5353	.	.	.	Note=Zinc 2%3B via tele nitrogen;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00986	
+P0DTD1	UniProtKB	Metal binding	5357	5357	.	.	.	Note=Zinc 2%3B via pros nitrogen;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00986	
+P0DTD1	UniProtKB	Metal binding	5363	5363	.	.	.	Note=Zinc 2;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00986	
+P0DTD1	UniProtKB	Metal binding	5374	5374	.	.	.	Note=Zinc 3;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00986	
+P0DTD1	UniProtKB	Metal binding	5379	5379	.	.	.	Note=Zinc 3%3B via pros nitrogen;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00986	
+P0DTD1	UniProtKB	Metal binding	5396	5396	.	.	.	Note=Zinc 3;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00986	
+P0DTD1	UniProtKB	Metal binding	5399	5399	.	.	.	Note=Zinc 3;Ontology_term=ECO:0000255;evidence=ECO:0000255|PROSITE-ProRule:PRU00986	
+P0DTD1	UniProtKB	Site	180	181	.	.	.	Note=Cleavage%3B by PL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Site	818	819	.	.	.	Note=Cleavage%3B by PL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Site	2763	2764	.	.	.	Note=Cleavage%3B by PL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Site	3263	3264	.	.	.	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Site	3569	3570	.	.	.	Note=Cleavage%3B aby 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Site	3859	3860	.	.	.	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Site	3942	3943	.	.	.	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Site	4140	4141	.	.	.	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Site	4253	4254	.	.	.	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Site	4392	4393	.	.	.	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Site	5324	5325	.	.	.	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Site	5925	5926	.	.	.	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Site	6452	6453	.	.	.	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	
+P0DTD1	UniProtKB	Site	6798	6799	.	.	.	Note=Cleavage%3B by 3CL-PRO;Ontology_term=ECO:0000250;evidence=ECO:0000250|UniProtKB:P0C6V3	

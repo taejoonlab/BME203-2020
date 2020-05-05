@@ -1,0 +1,33 @@
+---
+title: "graphplot"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+library(tidyverse)
+library(ggplot2)
+varplot<-read_tsv('variabliltytableSwindow10.txt')
+varplot
+p<-ggplot(data=varplot,aes(x=Nucleotide_position, y=Variability_score, group=1)) +labs(title="S Nucleotide Diversity plot",x ="Nucleotide_position", y = "Score")+   geom_line(color="red")+ylim(0,150)
+options(repr.p.width = 1, repr.p.height = 0.75)
+p
+
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
